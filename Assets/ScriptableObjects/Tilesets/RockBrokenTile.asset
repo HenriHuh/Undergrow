@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa0f8abd491e8642af809c16bde8f76, type: 3}
+  m_Name: RockBrokenTile
+  m_EditorClassIdentifier: 
+  center: {fileID: -1793395516639211266, guid: b48440cbefed2154abca50661f65f5f6, type: 3}
+  single: {fileID: -5644115336474821446, guid: b48440cbefed2154abca50661f65f5f6, type: 3}
+  topLeft: {fileID: -5453749765046847476, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  topRight: {fileID: -2883817156181031876, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  bottomLeft: {fileID: -2307504317521350720, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  bottomRight: {fileID: -5230672593808955703, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideLeft: {fileID: -8703599281946340062, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideRight: {fileID: -5521609860671497612, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideTop: {fileID: -6194285891562934364, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideBottom: {fileID: -6715404060375759250, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideLeftRight: {fileID: -5735714695577624895, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  sideTopBottom: {fileID: -7551025440916083295, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  endLeft: {fileID: -7540130370150217385, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  endRight: {fileID: 4732364784843975826, guid: b48440cbefed2154abca50661f65f5f6,
+    type: 3}
+  endUp: {fileID: -6349348269415668848, guid: b48440cbefed2154abca50661f65f5f6, type: 3}
+  endDown: {fileID: -156269693022977113, guid: b48440cbefed2154abca50661f65f5f6, type: 3}

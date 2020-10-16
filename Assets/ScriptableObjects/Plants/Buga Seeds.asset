@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40ee55982c1ced428cd181700a761ac, type: 3}
+  m_Name: Buga Seeds
+  m_EditorClassIdentifier: 
+  plantVariables:
+    plantName: Buga Seed
+    value: 40
+    depth: -125
+    speed: 2.5
+    seedSprite: {fileID: 21300000, guid: 4215f89395c7d3845947704076f59821, type: 3}
+    flowerSprite: {fileID: 21300000, guid: d8032ec7d8d8efb4ba0afa1a6e6be8a0, type: 3}
+    flowerAnim: {fileID: 9100000, guid: b1fdcd9d7dd0585498606f92cc196ae9, type: 2}
+    silhouette: {fileID: 21300000, guid: 1e127aa9f78154b46b0403aa4cabbda9, type: 3}
+    timeToGrow: 4
+    flowers:
+    - {fileID: 11400000, guid: 66337f20df69a964eb671ba0bdae159d, type: 2}
+    - {fileID: 11400000, guid: 377ee282281d1e34ab13ef78e652578b, type: 2}
+    mapObjects:
+    - type: 0
+      gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
+        type: 3}
+      rarity: 0.579
+      maxClusterSize: 32
+      tiles:
+      - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
+      - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}
+      depth: 0
+    - type: 1
+      gameObj: {fileID: 5122439825763243903, guid: 82344f6ee026c0c479dd789a3fac27d7,
+        type: 3}
+      rarity: 0.363
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    - type: 3
+      gameObj: {fileID: 7145783183205835103, guid: 7a4437dec3c857f48be4f0b25991e7c8,
+        type: 3}
+      rarity: 0.307
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    - type: 4
+      gameObj: {fileID: 5677787911760862040, guid: 333c53644c9afd34d95e499f73927619,
+        type: 3}
+      rarity: 0.144
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    plotIndex: 18
+  index: 1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673d66764c016094f95f8f120a8ca8c6, type: 3}
+  m_Name: Flower 2
+  m_EditorClassIdentifier: 
+  flowerName: Buga
+  value: 12
+  flower: {fileID: 6424137722893264884, guid: d65cc95dd842e574bb7a0c6e8e4a98a2, type: 3}
+  material: {fileID: 2100000, guid: dd184da013b666d488a1f1ef62344afd, type: 2}
+  icons:
+  - {fileID: 8403731683380086088, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: 681823266842017395, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: 6105896439035123332, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: -7741875749761401498, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: -7836255472393296563, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: 6302723413220336835, guid: b9e26e69ab1522d43b624b2d93d832a7, type: 3}
+  - {fileID: 21300000, guid: b3e76579ba72b194fbec356e25b236b4, type: 3}
+  index: 2

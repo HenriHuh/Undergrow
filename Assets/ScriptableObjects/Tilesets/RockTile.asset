@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa0f8abd491e8642af809c16bde8f76, type: 3}
+  m_Name: RockTile
+  m_EditorClassIdentifier: 
+  center: {fileID: 1177935026118437878, guid: cfb5302c9a0c2684cade85616650e8bb, type: 3}
+  single: {fileID: -7962196714714411498, guid: cfb5302c9a0c2684cade85616650e8bb, type: 3}
+  topLeft: {fileID: 5363923539231383988, guid: cfb5302c9a0c2684cade85616650e8bb, type: 3}
+  topRight: {fileID: -2373745766272589035, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  bottomLeft: {fileID: 639369507794544728, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  bottomRight: {fileID: 8157542911074328570, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  sideLeft: {fileID: 883393797200033786, guid: cfb5302c9a0c2684cade85616650e8bb, type: 3}
+  sideRight: {fileID: 5866525248891317564, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  sideTop: {fileID: -6767042190738313853, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  sideBottom: {fileID: -6120252437701652972, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  sideLeftRight: {fileID: -5310939878696058136, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  sideTopBottom: {fileID: 4325275088573092085, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  endLeft: {fileID: -6245919455050637845, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  endRight: {fileID: -6852794353163742051, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}
+  endUp: {fileID: -1788375667956345868, guid: cfb5302c9a0c2684cade85616650e8bb, type: 3}
+  endDown: {fileID: -8757926073189931092, guid: cfb5302c9a0c2684cade85616650e8bb,
+    type: 3}

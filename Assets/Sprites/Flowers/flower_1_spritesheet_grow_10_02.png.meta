@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: a44e1ce31717e534eb0bed080d499948
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5134588291420674106
+    second: flower_1_spritesheet_grow_10_02_0
+  - first:
+      213: -2586815071377833759
+    second: flower_1_spritesheet_grow_10_02_1
+  - first:
+      213: -787553369786769461
+    second: flower_1_spritesheet_grow_10_02_2
+  - first:
+      213: 2385687599469858053
+    second: flower_1_spritesheet_grow_10_02_3
+  - first:
+      213: 7188155979285189158
+    second: flower_1_spritesheet_grow_10_02_4
+  - first:
+      213: 7424030640874414162
+    second: flower_1_spritesheet_grow_10_02_5
+  - first:
+      213: -3687223217010353837
+    second: flower_1_spritesheet_grow_10_02_6
+  - first:
+      213: 8224158901760627738
+    second: flower_1_spritesheet_grow_10_02_7
+  - first:
+      213: -4056957953007938528
+    second: flower_1_spritesheet_grow_10_02_8
+  - first:
+      213: 3074696531946958417
+    second: flower_1_spritesheet_grow_10_02_9
+  - first:
+      213: -8309113798991063617
+    second: flower_1_spritesheet_grow_10_02_10
+  - first:
+      213: -3247342695456644505
+    second: flower_1_spritesheet_grow_10_02_11
+  - first:
+      213: -7043003068100073117
+    second: flower_1_spritesheet_grow_10_02_12
+  - first:
+      213: 6684030669561304976
+    second: flower_1_spritesheet_grow_10_02_13
+  - first:
+      213: -5952485164138293327
+    second: flower_1_spritesheet_grow_10_02_14
+  - first:
+      213: -6973152600534234188
+    second: flower_1_spritesheet_grow_10_02_15
+  - first:
+      213: -6343069765518459743
+    second: flower_1_spritesheet_grow_10_02_16
+  - first:
+      213: -3759518528515631204
+    second: flower_1_spritesheet_grow_10_02_17
+  - first:
+      213: -5499523870192512702
+    second: flower_1_spritesheet_grow_10_02_18
+  - first:
+      213: 7756292241060357047
+    second: flower_1_spritesheet_grow_10_02_19
+  - first:
+      213: 378155018208209988
+    second: flower_1_spritesheet_grow_10_02_20
+  - first:
+      213: 9082497059291469451
+    second: flower_1_spritesheet_grow_10_02_21
+  - first:
+      213: -3378949730848629872
+    second: flower_1_spritesheet_grow_10_02_22
+  - first:
+      213: -7226666905444132763
+    second: flower_1_spritesheet_grow_10_02_23
+  - first:
+      213: 204328329329739379
+    second: flower_1_spritesheet_grow_10_02_24
+  - first:
+      213: 2858005787356784213
+    second: flower_1_spritesheet_grow_10_02_25
+  - first:
+      213: -2064684587162135737
+    second: flower_1_spritesheet_grow_10_02_26
+  - first:
+      213: 8350920461070561421
+    second: flower_1_spritesheet_grow_10_02_27
+  - first:
+      213: 7204390265833543500
+    second: flower_1_spritesheet_grow_10_02_28
+  - first:
+      213: -6629520309677890691
+    second: flower_1_spritesheet_grow_10_02_29
+  - first:
+      213: 8055455824299735319
+    second: flower_1_spritesheet_grow_10_02_30
+  - first:
+      213: -4664858414457558785
+    second: flower_1_spritesheet_grow_10_02_31
+  - first:
+      213: 9028725284262638487
+    second: flower_1_spritesheet_grow_10_02_32
+  - first:
+      213: -2124187532010454833
+    second: flower_1_spritesheet_grow_10_02_33
+  - first:
+      213: 893204375654216110
+    second: flower_1_spritesheet_grow_10_02_34
+  - first:
+      213: -1653311378977106570
+    second: flower_1_spritesheet_grow_10_02_35
+  - first:
+      213: -5009632748133900741
+    second: flower_1_spritesheet_grow_10_02_36
+  - first:
+      213: -3274424711939480958
+    second: flower_1_spritesheet_grow_10_02_37
+  - first:
+      213: -1850952525147578793
+    second: flower_1_spritesheet_grow_10_02_38
+  - first:
+      213: -3958782891079727728
+    second: flower_1_spritesheet_grow_10_02_39
+  - first:
+      213: 4871933343630251464
+    second: flower_1_spritesheet_grow_10_02_40
+  - first:
+      213: -8639625669262172676
+    second: flower_1_spritesheet_grow_10_02_41
+  - first:
+      213: 1146399650943155943
+    second: flower_1_spritesheet_grow_10_02_42
+  - first:
+      213: -7449649364485052205
+    second: flower_1_spritesheet_grow_10_02_43
+  - first:
+      213: -5361668214776075449
+    second: flower_1_spritesheet_grow_10_02_44
+  - first:
+      213: -4714709536602634609
+    second: flower_1_spritesheet_grow_10_02_45
+  - first:
+      213: -5466471929751796491
+    second: flower_1_spritesheet_grow_10_02_46
+  - first:
+      213: -1645477308507261233
+    second: flower_1_spritesheet_grow_10_02_47
+  - first:
+      213: -455244307795249606
+    second: flower_1_spritesheet_grow_10_02_48
+  - first:
+      213: -4428352449861240211
+    second: flower_1_spritesheet_grow_10_02_49
+  - first:
+      213: -8650841616462138005
+    second: flower_1_spritesheet_grow_10_02_50
+  - first:
+      213: 4550848881578845613
+    second: flower_1_spritesheet_grow_10_02_51
+  - first:
+      213: -3745380426487567547
+    second: flower_1_spritesheet_grow_10_02_52
+  - first:
+      213: -4357589131249365255
+    second: flower_1_spritesheet_grow_10_02_53
+  - first:
+      213: 1463204996327248025
+    second: flower_1_spritesheet_grow_10_02_54
+  - first:
+      213: 4215930685814543671
+    second: flower_1_spritesheet_grow_10_02_55
+  - first:
+      213: -9152406462808104156
+    second: flower_1_spritesheet_grow_10_02_56
+  - first:
+      213: 3338179229497837865
+    second: flower_1_spritesheet_grow_10_02_57
+  - first:
+      213: 5678168238353686502
+    second: flower_1_spritesheet_grow_10_02_58
+  - first:
+      213: 6862785270572058845
+    second: flower_1_spritesheet_grow_10_02_59
+  - first:
+      213: 4607097515957026354
+    second: flower_1_spritesheet_grow_10_02_60
+  - first:
+      213: 2659165729738600511
+    second: flower_1_spritesheet_grow_10_02_61
+  - first:
+      213: 2870441729072011735
+    second: flower_1_spritesheet_grow_10_02_62
+  - first:
+      213: 1160568462363715508
+    second: flower_1_spritesheet_grow_10_02_63
+  - first:
+      213: 4887249625329871555
+    second: flower_1_spritesheet_grow_10_02_64
+  - first:
+      213: 4598740022054291966
+    second: flower_1_spritesheet_grow_10_02_65
+  - first:
+      213: 5611252185464909088
+    second: flower_1_spritesheet_grow_10_02_66
+  - first:
+      213: -8660606721646402974
+    second: flower_1_spritesheet_grow_10_02_67
+  - first:
+      213: -9089016657072250217
+    second: flower_1_spritesheet_grow_10_02_68
+  - first:
+      213: 3892156770921613186
+    second: flower_1_spritesheet_grow_10_02_69
+  - first:
+      213: -6456619946002814110
+    second: flower_1_spritesheet_grow_10_02_70
+  - first:
+      213: -5125112497493440299
+    second: flower_1_spritesheet_grow_10_02_71
+  - first:
+      213: -8650997032069282303
+    second: flower_1_spritesheet_grow_10_02_72
+  - first:
+      213: 1425930072940478209
+    second: flower_1_spritesheet_grow_10_02_73
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7adf537274eb8b0800000000000000
+      internalID: -5134588291420674106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0c5eae569c91cd0800000000000000
+      internalID: -2586815071377833759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf9230026c0215f0800000000000000
+      internalID: -787553369786769461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d84775b3aab1120800000000000000
+      internalID: 2385687599469858053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d46757c571c360800000000000000
+      internalID: 7188155979285189158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2506fee9884770760800000000000000
+      internalID: 7424030640874414162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3595686150a54dcc0800000000000000
+      internalID: -3687223217010353837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141fcb92f4122270800000000000000
+      internalID: 8224158901760627738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02414468c3ac2b7c0800000000000000
+      internalID: -4056957953007938528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ee2d294348baa20800000000000000
+      internalID: 3074696531946958417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb557dcf50910bc80800000000000000
+      internalID: -8309113798991063617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e85d060f1fe2d0800000000000000
+      internalID: -3247342695456644505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a8e5660a324e90800000000000000
+      internalID: -7043003068100073117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097940ffa7272cc50800000000000000
+      internalID: 6684030669561304976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b711c4e746846da0800000000000000
+      internalID: -5952485164138293327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbc098b7a26a3f90800000000000000
+      internalID: -6973152600534234188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac70c0c7a3e8f7a0800000000000000
+      internalID: -6343069765518459743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97935d21d183dbc0800000000000000
+      internalID: -3759518528515631204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d4638d24cda3b0800000000000000
+      internalID: -5499523870192512702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_1_spritesheet_grow_10_02_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3658ad2b2e3ab60800000000000000
+      internalID: 7756292241060357047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

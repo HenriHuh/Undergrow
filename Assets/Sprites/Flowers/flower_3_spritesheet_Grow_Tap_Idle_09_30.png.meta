@@ -1,0 +1,2141 @@
+fileFormatVersion: 2
+guid: 1167f8ef3f94c4d41a7023cd75a1f40b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7181381105712469797
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_0
+  - first:
+      213: -6303720885955968119
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_1
+  - first:
+      213: 6412005289750034723
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_2
+  - first:
+      213: 6538298497965844191
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_3
+  - first:
+      213: -4307847921209627550
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_4
+  - first:
+      213: -4244814058422470453
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_5
+  - first:
+      213: 8564759406724013278
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_6
+  - first:
+      213: 2688198379920969669
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_7
+  - first:
+      213: 6388785048295391439
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_8
+  - first:
+      213: -8859457621612525473
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_9
+  - first:
+      213: 592150756824239104
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_10
+  - first:
+      213: -7144636509104721502
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_11
+  - first:
+      213: 576018774689376155
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_12
+  - first:
+      213: 5610050312023309014
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_13
+  - first:
+      213: 1143392549153115305
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_14
+  - first:
+      213: -1665434392741944917
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_15
+  - first:
+      213: -3692176947936651679
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_16
+  - first:
+      213: 8564044331321317054
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_17
+  - first:
+      213: 7520137500088202221
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_18
+  - first:
+      213: 5874439132614528584
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_19
+  - first:
+      213: 3962422842515731877
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_20
+  - first:
+      213: 1966462248722476138
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_21
+  - first:
+      213: 1630064516040252208
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_22
+  - first:
+      213: -833606278511325956
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_23
+  - first:
+      213: -7488224279523236096
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_24
+  - first:
+      213: -7426629125405766744
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_25
+  - first:
+      213: -7401968884576967266
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_26
+  - first:
+      213: 2247500989269136707
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_27
+  - first:
+      213: -684771994253294477
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_28
+  - first:
+      213: 5660398065792240074
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_29
+  - first:
+      213: 4950600802345559649
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_30
+  - first:
+      213: 2250492510918503889
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_31
+  - first:
+      213: 2724764559515085299
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_32
+  - first:
+      213: -2045885135562528370
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_33
+  - first:
+      213: -6950642531345990152
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_34
+  - first:
+      213: -2715910255326693467
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_35
+  - first:
+      213: -3385496987288741962
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_36
+  - first:
+      213: -187844801193180325
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_37
+  - first:
+      213: 7021055917777937237
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_38
+  - first:
+      213: 657824021824558352
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_39
+  - first:
+      213: 1737467920004860983
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_40
+  - first:
+      213: 2886884617792597558
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_41
+  - first:
+      213: -7038335534927794113
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_42
+  - first:
+      213: 6932878788837889481
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_43
+  - first:
+      213: 8984045989411032177
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_44
+  - first:
+      213: 4535243108812137737
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_45
+  - first:
+      213: 9212279988875586085
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_46
+  - first:
+      213: -985450469231788775
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_47
+  - first:
+      213: 5429356743856988535
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_48
+  - first:
+      213: 8201508523628825952
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_49
+  - first:
+      213: 8099265379935568314
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_50
+  - first:
+      213: 2633082973275074534
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_51
+  - first:
+      213: 7873312722716938062
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_52
+  - first:
+      213: 5371656641545872641
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_53
+  - first:
+      213: -7857564450221575219
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_54
+  - first:
+      213: 1597726322197956714
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_55
+  - first:
+      213: 3176658678951821964
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_56
+  - first:
+      213: -4339624173179754996
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_57
+  - first:
+      213: -1147183049211868138
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_58
+  - first:
+      213: 6063869784598300227
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_59
+  - first:
+      213: 7315605168937129732
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_60
+  - first:
+      213: 1987702432761338118
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_61
+  - first:
+      213: 4313435986287382959
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_62
+  - first:
+      213: 6566717361711276385
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_63
+  - first:
+      213: 6465484067022399590
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_64
+  - first:
+      213: 5399740298611572819
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_65
+  - first:
+      213: -5639784869141992852
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_66
+  - first:
+      213: 8350757472009149791
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_67
+  - first:
+      213: 8666367843573656561
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_68
+  - first:
+      213: -7339661506037085965
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_69
+  - first:
+      213: 7320629371847254274
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_70
+  - first:
+      213: -6446914054048085021
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_71
+  - first:
+      213: -5274944315961448915
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_72
+  - first:
+      213: 7731381568349026996
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_73
+  - first:
+      213: 7054635546410075628
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_74
+  - first:
+      213: 5920562376072755729
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_75
+  - first:
+      213: -7643518022788509534
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_76
+  - first:
+      213: 4428629704548729274
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_77
+  - first:
+      213: 495563963861361164
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_78
+  - first:
+      213: -4374095987192083067
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_79
+  - first:
+      213: -3406910016809067025
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_80
+  - first:
+      213: -1927573563785278135
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_81
+  - first:
+      213: 3317186938704433769
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_82
+  - first:
+      213: 474643426651058700
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_83
+  - first:
+      213: -5095508920760883265
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_84
+  - first:
+      213: 6924334296343932778
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_85
+  - first:
+      213: -3987642696143363240
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_86
+  - first:
+      213: 4150043412601616151
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_87
+  - first:
+      213: 3722373587565865642
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_88
+  - first:
+      213: -6723597109515787460
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_89
+  - first:
+      213: 5980470451227398431
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_90
+  - first:
+      213: 2974297532900804997
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_91
+  - first:
+      213: 5617734419268605692
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_92
+  - first:
+      213: -5321898109404353929
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_93
+  - first:
+      213: -717466219112787489
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_94
+  - first:
+      213: 7688993719784096333
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_95
+  - first:
+      213: -8624277257646246582
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_96
+  - first:
+      213: -4036665093469734537
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_97
+  - first:
+      213: 1346578843264929269
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_98
+  - first:
+      213: -9140660785675435119
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_99
+  - first:
+      213: 9022342672945044564
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_100
+  - first:
+      213: -3640539831398979982
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_101
+  - first:
+      213: 7686968854461874832
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_102
+  - first:
+      213: -2883635087562195021
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_103
+  - first:
+      213: 5148723658471115330
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_104
+  - first:
+      213: -1234478651882156148
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_105
+  - first:
+      213: -7465794552931714091
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_106
+  - first:
+      213: 5998006370792742885
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_107
+  - first:
+      213: 6248053778169648852
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_108
+  - first:
+      213: -9093887623962336221
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_109
+  - first:
+      213: 11161522949310267
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_110
+  - first:
+      213: -8651204197410032578
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_111
+  - first:
+      213: -6245569608126726189
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_112
+  - first:
+      213: 649732429470403353
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_113
+  - first:
+      213: -5657127847921000971
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_114
+  - first:
+      213: -1122507829041341268
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_115
+  - first:
+      213: 3954302766071422188
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_116
+  - first:
+      213: -2544344982475012754
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_117
+  - first:
+      213: 8313897286114693073
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_118
+  - first:
+      213: 7589380270843736648
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_119
+  - first:
+      213: -4848962047341246735
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_120
+  - first:
+      213: 3290579169130341538
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_121
+  - first:
+      213: -8598548349060618870
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_122
+  - first:
+      213: -6962668413692311407
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_123
+  - first:
+      213: -8401911052989541111
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_124
+  - first:
+      213: 1054665210082125158
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_125
+  - first:
+      213: 1600028286562149323
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_126
+  - first:
+      213: -4162067457884202717
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_127
+  - first:
+      213: -5273792135694388774
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_128
+  - first:
+      213: -214477008180032896
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_129
+  - first:
+      213: -1063099260680913684
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_130
+  - first:
+      213: -8938930588155385380
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_131
+  - first:
+      213: 4738277316828707945
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_132
+  - first:
+      213: 2646588010807332848
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_133
+  - first:
+      213: -6463298901444880632
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_134
+  - first:
+      213: -7860287766502471731
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_135
+  - first:
+      213: 654317673858379300
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_136
+  - first:
+      213: -39386303853298852
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_137
+  - first:
+      213: 8186585589918527847
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_138
+  - first:
+      213: 7600772211894947645
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_139
+  - first:
+      213: -8908431651313332529
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_140
+  - first:
+      213: 6626849519299924789
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_141
+  - first:
+      213: 6032933841207727416
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_142
+  - first:
+      213: -863200595320502534
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_143
+  - first:
+      213: -5434075538436011070
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_144
+  - first:
+      213: -5217577151700472144
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_145
+  - first:
+      213: -6183029316098409428
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_146
+  - first:
+      213: -6488606764700183430
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_147
+  - first:
+      213: 221916037046278494
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_148
+  - first:
+      213: 7134634305966739560
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_149
+  - first:
+      213: -3646429643394787620
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_150
+  - first:
+      213: 8108548661298170392
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_151
+  - first:
+      213: -6835622419336376415
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_152
+  - first:
+      213: -1588097597368868175
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_153
+  - first:
+      213: -3359707671510072736
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_154
+  - first:
+      213: 2849682933280582807
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_155
+  - first:
+      213: -671366491717102060
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_156
+  - first:
+      213: -6743143469287922872
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_157
+  - first:
+      213: -7887151701346414431
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_158
+  - first:
+      213: -6519095362964743928
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_159
+  - first:
+      213: -6430492870479484816
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_160
+  - first:
+      213: 7710838456114272008
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_161
+  - first:
+      213: -3793801648107358770
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_162
+  - first:
+      213: 8031762336415783341
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_163
+  - first:
+      213: 29096111793859862
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_164
+  - first:
+      213: -9121360827704281184
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_165
+  - first:
+      213: 7466816420083503683
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_166
+  - first:
+      213: -4536762721612178210
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_167
+  - first:
+      213: -6229386134877301725
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_168
+  - first:
+      213: 3844388319151563831
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_169
+  - first:
+      213: 7268646610710760814
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_170
+  - first:
+      213: -6376491430446538929
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_171
+  - first:
+      213: -2320330808546359940
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_172
+  - first:
+      213: -4412879984625767691
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_173
+  - first:
+      213: -1672058417477658691
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_174
+  - first:
+      213: -3261424986706799255
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_175
+  - first:
+      213: -8879995244784618134
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_176
+  - first:
+      213: -7487197786411649552
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_177
+  - first:
+      213: 4801644312698292778
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_178
+  - first:
+      213: 5037001650697062876
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_179
+  - first:
+      213: -1040110711656178646
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_180
+  - first:
+      213: -6758596557923629075
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_181
+  - first:
+      213: 4863660556789047433
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_182
+  - first:
+      213: 4690024435441874714
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_183
+  - first:
+      213: -7419509792979444827
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_184
+  - first:
+      213: -3916052955142387882
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_185
+  - first:
+      213: 6578260575725087163
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_186
+  - first:
+      213: 3726412281167908394
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_187
+  - first:
+      213: 8372803477446215705
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_188
+  - first:
+      213: -6326489602667876004
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_189
+  - first:
+      213: -761587272104482308
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_190
+  - first:
+      213: -5099299258950034075
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_191
+  - first:
+      213: -6251477215427612186
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_192
+  - first:
+      213: 4072169545463150436
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_193
+  - first:
+      213: 1211806406754745360
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_194
+  - first:
+      213: -2707610530102681169
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_195
+  - first:
+      213: 4757187699102893804
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_196
+  - first:
+      213: -2442442175963673068
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_197
+  - first:
+      213: -6218311058966526105
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_198
+  - first:
+      213: -4362018251639629577
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_199
+  - first:
+      213: -7217718399726552474
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_200
+  - first:
+      213: -7744361286922313973
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_201
+  - first:
+      213: 1385683064644856586
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_202
+  - first:
+      213: 6510829081699400638
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_203
+  - first:
+      213: -5756125496011005678
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_204
+  - first:
+      213: 451803315851457642
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_205
+  - first:
+      213: -4930996321047805106
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_206
+  - first:
+      213: 4606545539196621522
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_207
+  - first:
+      213: -4153672309076125408
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_208
+  - first:
+      213: -6565749827362531183
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_209
+  - first:
+      213: -498167367488442745
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_210
+  - first:
+      213: 1113134765190314551
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_211
+  - first:
+      213: 1279031404248455914
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_212
+  - first:
+      213: 3244077012959495559
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_213
+  - first:
+      213: -5698742344809637496
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_214
+  - first:
+      213: -192368788662521
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_215
+  - first:
+      213: 1704408488607052335
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_216
+  - first:
+      213: 8594767344329246584
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_217
+  - first:
+      213: -7967105163773841419
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_218
+  - first:
+      213: 8114371513032259745
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_219
+  - first:
+      213: 3809171290924012175
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_220
+  - first:
+      213: -1131770155061332227
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_221
+  - first:
+      213: 1037799585589490715
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_222
+  - first:
+      213: -4831490754821059331
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_223
+  - first:
+      213: -876186523293147551
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_224
+  - first:
+      213: 4335521081650626779
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_225
+  - first:
+      213: 252979495335618025
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_226
+  - first:
+      213: 4103622184294467627
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_227
+  - first:
+      213: -4389571685392865460
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_228
+  - first:
+      213: -5933718294529612825
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_229
+  - first:
+      213: -9145252007763962821
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_230
+  - first:
+      213: 1386854902674546481
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_231
+  - first:
+      213: 5437768528077027303
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_232
+  - first:
+      213: 8188540107191983783
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_233
+  - first:
+      213: 3499910594843328343
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_234
+  - first:
+      213: -7545073114157065728
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_235
+  - first:
+      213: -4251219410171182753
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_236
+  - first:
+      213: -9118432352235616297
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_237
+  - first:
+      213: 4453707376067602630
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_238
+  - first:
+      213: 8875816114165591772
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_239
+  - first:
+      213: 4333340936006092583
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_240
+  - first:
+      213: -6432360780998565112
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_241
+  - first:
+      213: 8120786209937116416
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_242
+  - first:
+      213: 5421483765989078599
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_243
+  - first:
+      213: 5725536081598086179
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_244
+  - first:
+      213: -959148276475678669
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_245
+  - first:
+      213: 326084008323926873
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_246
+  - first:
+      213: 7387798256674596737
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_247
+  - first:
+      213: 195779294706217502
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_248
+  - first:
+      213: 9149365304546894644
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_249
+  - first:
+      213: 900500836938078006
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_250
+  - first:
+      213: 7080759614842737972
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_251
+  - first:
+      213: -9118212279057682707
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_252
+  - first:
+      213: -242661606456580464
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_253
+  - first:
+      213: 4391663139081559842
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_254
+  - first:
+      213: -3309199659763192490
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_255
+  - first:
+      213: -6735123125650465052
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_256
+  - first:
+      213: 7271359930088608942
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_257
+  - first:
+      213: -1503587673497763808
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_258
+  - first:
+      213: 8312758191929483000
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_259
+  - first:
+      213: 8021190185786061061
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_260
+  - first:
+      213: -4890376792435363574
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_261
+  - first:
+      213: 2986235754865101050
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_262
+  - first:
+      213: 2931209069821028423
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_263
+  - first:
+      213: -3932526526131890998
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_264
+  - first:
+      213: 4564773961765796494
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_265
+  - first:
+      213: -2270889331681705424
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_266
+  - first:
+      213: 4073878909108039457
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_267
+  - first:
+      213: 224314253594618708
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_268
+  - first:
+      213: 2417142218577625573
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_269
+  - first:
+      213: -2107834957644277118
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_270
+  - first:
+      213: -5386442129205209560
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_271
+  - first:
+      213: -38525543659647835
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_272
+  - first:
+      213: -8477433249805659444
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_273
+  - first:
+      213: 3466275789051996790
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_274
+  - first:
+      213: 7553209548013313608
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_275
+  - first:
+      213: 8869461642800038844
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_276
+  - first:
+      213: 6647095046769995785
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_277
+  - first:
+      213: -2741285625951742047
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_278
+  - first:
+      213: 6725293360609732679
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_279
+  - first:
+      213: 3569882637586422748
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_280
+  - first:
+      213: -4464631010321997982
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_281
+  - first:
+      213: 6945035201073478025
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_282
+  - first:
+      213: -4700376926753638625
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_283
+  - first:
+      213: -8132389047375134208
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_284
+  - first:
+      213: 7937086901196663667
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_285
+  - first:
+      213: 7077571318645346867
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_286
+  - first:
+      213: -684897672032000828
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_287
+  - first:
+      213: -6047173211909056642
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_288
+  - first:
+      213: -6252635341095255991
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_289
+  - first:
+      213: -2316522392943307258
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_290
+  - first:
+      213: -5662642531316229265
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_291
+  - first:
+      213: 847799728490734939
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_292
+  - first:
+      213: 1796793415267020515
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_293
+  - first:
+      213: 1423544228977455941
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_294
+  - first:
+      213: 114683132135002589
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_295
+  - first:
+      213: -6483379727069962842
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_296
+  - first:
+      213: 7534235236266977109
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_297
+  - first:
+      213: -7658020688899471088
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_298
+  - first:
+      213: 457923772439702235
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_299
+  - first:
+      213: 5491009615682475737
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_300
+  - first:
+      213: 7854757963580442500
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_301
+  - first:
+      213: 5650197994231768368
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_302
+  - first:
+      213: 7975052180052645637
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_303
+  - first:
+      213: -6194438218748476310
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_304
+  - first:
+      213: 4853273800295124297
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_305
+  - first:
+      213: 5684983652849692394
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_306
+  - first:
+      213: -73343659925125427
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_307
+  - first:
+      213: -4182914158895915837
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_308
+  - first:
+      213: -1101826137583771018
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_309
+  - first:
+      213: 8550766628608285076
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_310
+  - first:
+      213: 6146547932027820453
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_311
+  - first:
+      213: -414796048216466253
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_312
+  - first:
+      213: -5458060897386958689
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_313
+  - first:
+      213: 7524394095523564949
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_314
+  - first:
+      213: 7568918266800069981
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_315
+  - first:
+      213: 2413390370478175302
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_316
+  - first:
+      213: -3620459267966446847
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_317
+  - first:
+      213: 3073278734687059693
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_318
+  - first:
+      213: -2725189156840542195
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_319
+  - first:
+      213: -8820192055347028879
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_320
+  - first:
+      213: 5386710746291212072
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_321
+  - first:
+      213: -7981238993931784570
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_322
+  - first:
+      213: -430485077270391977
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_323
+  - first:
+      213: -2794646095155425365
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_324
+  - first:
+      213: 5278669532575958604
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_325
+  - first:
+      213: -3338257400984239756
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_326
+  - first:
+      213: -3908898673474919327
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_327
+  - first:
+      213: -1694603729883341439
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_328
+  - first:
+      213: 7790172228004136910
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_329
+  - first:
+      213: -6829740968956370392
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_330
+  - first:
+      213: 2630432469590690794
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_331
+  - first:
+      213: -3363158323267218099
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_332
+  - first:
+      213: 4559664618545226917
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_333
+  - first:
+      213: -6757663544930737928
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_334
+  - first:
+      213: 2611577493788656244
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_335
+  - first:
+      213: 3941309160528619355
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_336
+  - first:
+      213: -5248049150038334087
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_337
+  - first:
+      213: 5879495549699707633
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_338
+  - first:
+      213: 5816438554103878492
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_339
+  - first:
+      213: 2891763971066066834
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_340
+  - first:
+      213: 4357497813733323248
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_341
+  - first:
+      213: -5918293238831097851
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_342
+  - first:
+      213: -2017071890817363387
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_343
+  - first:
+      213: -4513205781348893669
+    second: flower_3_spritesheet_Grow_Tap_Idle_09_30_344
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52791ba211469a360800000000000000
+      internalID: 7181381105712469797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834265b04fa488a0800000000000000
+      internalID: -6303720885955968119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f979b6d40cf850800000000000000
+      internalID: 6412005289750034723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd669bea7d3bcba50800000000000000
+      internalID: 6538298497965844191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c25edb3237734c0800000000000000
+      internalID: -4307847921209627550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f4269a146715c0800000000000000
+      internalID: -4244814058422470453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc58786d432cd670800000000000000
+      internalID: 8564759406724013278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf48f01f266e4520800000000000000
+      internalID: 2688198379920969669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc049f5f62689a850800000000000000
+      internalID: 6388785048295391439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5888298b32ec0580800000000000000
+      internalID: -8859457621612525473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cccf9d9fdb73800800000000000000
+      internalID: 592150756824239104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1b689e2f629dc90800000000000000
+      internalID: -7144636509104721502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97e051160e6ef700800000000000000
+      internalID: 576018774689376155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daf7341907eadd40800000000000000
+      internalID: 5610050312023309014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac891b27752edf00800000000000000
+      internalID: 1143392549153115305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e5ef5e3033e8e0800000000000000
+      internalID: -1665434392741944917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166995ab0a0c2ccc0800000000000000
+      internalID: -3692176947936651679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6da11f1f899d670800000000000000
+      internalID: 8564044331321317054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f9d28635ec5860800000000000000
+      internalID: 7520137500088202221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e842a5443368150800000000000000
+      internalID: 5874439132614528584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a53b0ad49a5df630800000000000000
+      internalID: 3962422842515731877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ca1571ff64a4b10800000000000000
+      internalID: 1966462248722476138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5c877a072f9610800000000000000
+      internalID: 1630064516040252208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0cce918f6e64f0800000000000000
+      internalID: -833606278511325956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007ef8c21bb741890800000000000000
+      internalID: -7488224279523236096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab8e9d88205fe890800000000000000
+      internalID: -7426629125405766744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95ab4c448ce64990800000000000000
+      internalID: -7401968884576967266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d9b1fd3ab03f10800000000000000
+      internalID: 2247500989269136707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748562df733f76f0800000000000000
+      internalID: -684771994253294477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9cadefc06cd8e40800000000000000
+      internalID: 5660398065792240074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1662298433114b440800000000000000
+      internalID: 4950600802345559649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd69fad30b5b3f10800000000000000
+      internalID: 2250492510918503889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f968723eee40d520800000000000000
+      internalID: 2724764559515085299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892b8b0f4e8b93e0800000000000000
+      internalID: -2045885135562528370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd766e917b5a8f90800000000000000
+      internalID: -6950642531345990152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7796523062f4ad0800000000000000
+      internalID: -2715910255326693467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_36
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7df7c5d6c4401d0800000000000000
+      internalID: -3385496987288741962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b530af70624a46df0800000000000000
+      internalID: -187844801193180325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ee47782dcf6160800000000000000
+      internalID: 7021055917777937237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_39
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0155299667f012900800000000000000
+      internalID: 657824021824558352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_40
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cc6842ed9bc1810800000000000000
+      internalID: 1737467920004860983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_41
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e2117b346401820800000000000000
+      internalID: 2886884617792597558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_42
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30be962f1fc25e90800000000000000
+      internalID: -7038335534927794113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_43
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5d587c688863060800000000000000
+      internalID: 6932878788837889481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0e945a3ebdac70800000000000000
+      internalID: 8984045989411032177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_3_spritesheet_Grow_Tap_Idle_09_30_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90529c6249b60fe30800000000000000
+      internalID: 4535243108812137737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

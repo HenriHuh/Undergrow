@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa0f8abd491e8642af809c16bde8f76, type: 3}
+  m_Name: PoisonTile
+  m_EditorClassIdentifier: 
+  center: {fileID: -6971884435831422908, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  single: {fileID: -1673376177566767799, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  topLeft: {fileID: 2374173725783058047, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  topRight: {fileID: 2262813247017269805, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  bottomLeft: {fileID: -7940223090711758971, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  bottomRight: {fileID: -2900753558061824232, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  sideLeft: {fileID: 5316527722893967177, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  sideRight: {fileID: 211953042019826365, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  sideTop: {fileID: 9160599989791737162, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  sideBottom: {fileID: -3630105941069638061, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  sideLeftRight: {fileID: 1726334813859948256, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  sideTopBottom: {fileID: 5207827708099627239, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  endLeft: {fileID: 48871974365127925, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  endRight: {fileID: 7474270187979470193, guid: eb56e741c2d9c6c4fb77c37ec7887679,
+    type: 3}
+  endUp: {fileID: 363819606289335315, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}
+  endDown: {fileID: 6285327824997382174, guid: eb56e741c2d9c6c4fb77c37ec7887679, type: 3}

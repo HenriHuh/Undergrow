@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: adda5f8f7aa7a1c4cbdd3bec596fd71b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2489684693706859875
+    second: flower_2_spritesheet_idle_10_15_0
+  - first:
+      213: -6109244262496378978
+    second: flower_2_spritesheet_idle_10_15_1
+  - first:
+      213: 403298206229633903
+    second: flower_2_spritesheet_idle_10_15_2
+  - first:
+      213: 9010465207403211595
+    second: flower_2_spritesheet_idle_10_15_3
+  - first:
+      213: -1435498207709081340
+    second: flower_2_spritesheet_idle_10_15_4
+  - first:
+      213: 3437198343297440661
+    second: flower_2_spritesheet_idle_10_15_5
+  - first:
+      213: 673262553081733843
+    second: flower_2_spritesheet_idle_10_15_6
+  - first:
+      213: -2228999524093643614
+    second: flower_2_spritesheet_idle_10_15_7
+  - first:
+      213: -8869691100337333498
+    second: flower_2_spritesheet_idle_10_15_8
+  - first:
+      213: -4260921907956978171
+    second: flower_2_spritesheet_idle_10_15_9
+  - first:
+      213: -2933828058725718551
+    second: flower_2_spritesheet_idle_10_15_10
+  - first:
+      213: 562067899165986135
+    second: flower_2_spritesheet_idle_10_15_11
+  - first:
+      213: 1313670552241201000
+    second: flower_2_spritesheet_idle_10_15_12
+  - first:
+      213: -7086668693245873385
+    second: flower_2_spritesheet_idle_10_15_13
+  - first:
+      213: -7024128957963773151
+    second: flower_2_spritesheet_idle_10_15_14
+  - first:
+      213: 8922471418393178170
+    second: flower_2_spritesheet_idle_10_15_15
+  - first:
+      213: -7242353450926225593
+    second: flower_2_spritesheet_idle_10_15_16
+  - first:
+      213: -3640944309632935274
+    second: flower_2_spritesheet_idle_10_15_17
+  - first:
+      213: -7868398835343434766
+    second: flower_2_spritesheet_idle_10_15_18
+  - first:
+      213: 65373426019142780
+    second: flower_2_spritesheet_idle_10_15_19
+  - first:
+      213: -1022943601156699965
+    second: flower_2_spritesheet_idle_10_15_20
+  - first:
+      213: -228510074070018355
+    second: flower_2_spritesheet_idle_10_15_21
+  - first:
+      213: 1092918553559174290
+    second: flower_2_spritesheet_idle_10_15_22
+  - first:
+      213: -255956054087504262
+    second: flower_2_spritesheet_idle_10_15_23
+  - first:
+      213: -4581288665117423403
+    second: flower_2_spritesheet_idle_10_15_24
+  - first:
+      213: -8315318374604947902
+    second: flower_2_spritesheet_idle_10_15_25
+  - first:
+      213: -3347777336390142683
+    second: flower_2_spritesheet_idle_10_15_26
+  - first:
+      213: -8425916157323233338
+    second: flower_2_spritesheet_idle_10_15_27
+  - first:
+      213: -7357091641161502298
+    second: flower_2_spritesheet_idle_10_15_28
+  - first:
+      213: -3775312813201894794
+    second: flower_2_spritesheet_idle_10_15_29
+  - first:
+      213: 2030473709558924115
+    second: flower_2_spritesheet_idle_10_15_30
+  - first:
+      213: -5253747542472656438
+    second: flower_2_spritesheet_idle_10_15_31
+  - first:
+      213: 4191176376612761123
+    second: flower_2_spritesheet_idle_10_15_32
+  - first:
+      213: 6522069995867747820
+    second: flower_2_spritesheet_idle_10_15_33
+  - first:
+      213: -4572995486247393453
+    second: flower_2_spritesheet_idle_10_15_34
+  - first:
+      213: 5203530513515635830
+    second: flower_2_spritesheet_idle_10_15_35
+  - first:
+      213: 2264808549660005821
+    second: flower_2_spritesheet_idle_10_15_36
+  - first:
+      213: -5932495429074288226
+    second: flower_2_spritesheet_idle_10_15_37
+  - first:
+      213: -3369740567452583017
+    second: flower_2_spritesheet_idle_10_15_38
+  - first:
+      213: -7598892086108093763
+    second: flower_2_spritesheet_idle_10_15_39
+  - first:
+      213: -3838133755839847578
+    second: flower_2_spritesheet_idle_10_15_40
+  - first:
+      213: 3198158250595724530
+    second: flower_2_spritesheet_idle_10_15_41
+  - first:
+      213: 407709198288983648
+    second: flower_2_spritesheet_idle_10_15_42
+  - first:
+      213: 8589594208972260266
+    second: flower_2_spritesheet_idle_10_15_43
+  - first:
+      213: -8276391333840661524
+    second: flower_2_spritesheet_idle_10_15_44
+  - first:
+      213: 7617238905002851482
+    second: flower_2_spritesheet_idle_10_15_45
+  - first:
+      213: 2120147733559259478
+    second: flower_2_spritesheet_idle_10_15_46
+  - first:
+      213: -4650425093200090319
+    second: flower_2_spritesheet_idle_10_15_47
+  - first:
+      213: 2573701279069706224
+    second: flower_2_spritesheet_idle_10_15_48
+  - first:
+      213: 3059909865832776630
+    second: flower_2_spritesheet_idle_10_15_49
+  - first:
+      213: -1174436634178441977
+    second: flower_2_spritesheet_idle_10_15_50
+  - first:
+      213: -2773110046452363213
+    second: flower_2_spritesheet_idle_10_15_51
+  - first:
+      213: 8534230591927763033
+    second: flower_2_spritesheet_idle_10_15_52
+  - first:
+      213: 3073323361175948981
+    second: flower_2_spritesheet_idle_10_15_53
+  - first:
+      213: -1992147204888046727
+    second: flower_2_spritesheet_idle_10_15_54
+  - first:
+      213: 4990485803021162268
+    second: flower_2_spritesheet_idle_10_15_55
+  - first:
+      213: 8615874118302293039
+    second: flower_2_spritesheet_idle_10_15_56
+  - first:
+      213: 6268955387787756514
+    second: flower_2_spritesheet_idle_10_15_57
+  - first:
+      213: 5013265565661108057
+    second: flower_2_spritesheet_idle_10_15_58
+  - first:
+      213: 1321175647857204873
+    second: flower_2_spritesheet_idle_10_15_59
+  - first:
+      213: 5509325542639299428
+    second: flower_2_spritesheet_idle_10_15_60
+  - first:
+      213: 3482060950186492277
+    second: flower_2_spritesheet_idle_10_15_61
+  - first:
+      213: 8503656611816757890
+    second: flower_2_spritesheet_idle_10_15_62
+  - first:
+      213: -4516979341842045464
+    second: flower_2_spritesheet_idle_10_15_63
+  - first:
+      213: 8359826194773542640
+    second: flower_2_spritesheet_idle_10_15_64
+  - first:
+      213: -4626001524527560187
+    second: flower_2_spritesheet_idle_10_15_65
+  - first:
+      213: -1960407058293152207
+    second: flower_2_spritesheet_idle_10_15_66
+  - first:
+      213: 3789636285472275813
+    second: flower_2_spritesheet_idle_10_15_67
+  - first:
+      213: 2106558495122420775
+    second: flower_2_spritesheet_idle_10_15_68
+  - first:
+      213: 3644225707324821421
+    second: flower_2_spritesheet_idle_10_15_69
+  - first:
+      213: 1433938436342551776
+    second: flower_2_spritesheet_idle_10_15_70
+  - first:
+      213: 8157492132748416657
+    second: flower_2_spritesheet_idle_10_15_71
+  - first:
+      213: -7701756534549686538
+    second: flower_2_spritesheet_idle_10_15_72
+  - first:
+      213: -3966852189920779585
+    second: flower_2_spritesheet_idle_10_15_73
+  - first:
+      213: 4964979685635880363
+    second: flower_2_spritesheet_idle_10_15_74
+  - first:
+      213: 1493503194674674596
+    second: flower_2_spritesheet_idle_10_15_75
+  - first:
+      213: -1766671828491508443
+    second: flower_2_spritesheet_idle_10_15_76
+  - first:
+      213: 3203300888803706667
+    second: flower_2_spritesheet_idle_10_15_77
+  - first:
+      213: 426955980436556719
+    second: flower_2_spritesheet_idle_10_15_78
+  - first:
+      213: 5147062277816709884
+    second: flower_2_spritesheet_idle_10_15_79
+  - first:
+      213: -6735321388548819249
+    second: flower_2_spritesheet_idle_10_15_80
+  - first:
+      213: -9125208083835400649
+    second: flower_2_spritesheet_idle_10_15_81
+  - first:
+      213: 7314196918513457243
+    second: flower_2_spritesheet_idle_10_15_82
+  - first:
+      213: -4105771492110830161
+    second: flower_2_spritesheet_idle_10_15_83
+  - first:
+      213: 572673598048406164
+    second: flower_2_spritesheet_idle_10_15_84
+  - first:
+      213: -8012243350748183859
+    second: flower_2_spritesheet_idle_10_15_85
+  - first:
+      213: -1946026332577623832
+    second: flower_2_spritesheet_idle_10_15_86
+  - first:
+      213: 5519215473204097841
+    second: flower_2_spritesheet_idle_10_15_87
+  - first:
+      213: 4836573945325022355
+    second: flower_2_spritesheet_idle_10_15_88
+  - first:
+      213: 425099435215411030
+    second: flower_2_spritesheet_idle_10_15_89
+  - first:
+      213: 3534728123057069473
+    second: flower_2_spritesheet_idle_10_15_90
+  - first:
+      213: 9195880026764989581
+    second: flower_2_spritesheet_idle_10_15_91
+  - first:
+      213: 793908222413661746
+    second: flower_2_spritesheet_idle_10_15_92
+  - first:
+      213: -8715749989745476811
+    second: flower_2_spritesheet_idle_10_15_93
+  - first:
+      213: -5861485341592333058
+    second: flower_2_spritesheet_idle_10_15_94
+  - first:
+      213: -2761307359358616516
+    second: flower_2_spritesheet_idle_10_15_95
+  - first:
+      213: 8072610968271774150
+    second: flower_2_spritesheet_idle_10_15_96
+  - first:
+      213: -7649927550099572513
+    second: flower_2_spritesheet_idle_10_15_97
+  - first:
+      213: 8360888696132436750
+    second: flower_2_spritesheet_idle_10_15_98
+  - first:
+      213: -7963737835482638654
+    second: flower_2_spritesheet_idle_10_15_99
+  - first:
+      213: 688859680178739614
+    second: flower_2_spritesheet_idle_10_15_100
+  - first:
+      213: -4058045639695344065
+    second: flower_2_spritesheet_idle_10_15_101
+  - first:
+      213: 5444826035771404197
+    second: flower_2_spritesheet_idle_10_15_102
+  - first:
+      213: -1360377252258910763
+    second: flower_2_spritesheet_idle_10_15_103
+  - first:
+      213: -1630016197427152920
+    second: flower_2_spritesheet_idle_10_15_104
+  - first:
+      213: -4559619626148954862
+    second: flower_2_spritesheet_idle_10_15_105
+  - first:
+      213: 2753890389253432949
+    second: flower_2_spritesheet_idle_10_15_106
+  - first:
+      213: 2974959083000539800
+    second: flower_2_spritesheet_idle_10_15_107
+  - first:
+      213: -6454682930947920765
+    second: flower_2_spritesheet_idle_10_15_108
+  - first:
+      213: -5738757008822323552
+    second: flower_2_spritesheet_idle_10_15_109
+  - first:
+      213: 4771968674872671351
+    second: flower_2_spritesheet_idle_10_15_110
+  - first:
+      213: -1821894095364084586
+    second: flower_2_spritesheet_idle_10_15_111
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a10e446fcd27dd0800000000000000
+      internalID: -2489684693706859875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f5fcf16ba973ba0800000000000000
+      internalID: -6109244262496378978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b9ed0f49dc89500800000000000000
+      internalID: 403298206229633903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be84cdd5a9b0d70800000000000000
+      internalID: 9010465207403211595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4015ac55cf5141ce0800000000000000
+      internalID: -1435498207709081340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b1ec2aea163bf20800000000000000
+      internalID: 3437198343297440661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2620599b8e75900800000000000000
+      internalID: 673262553081733843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a432e91eb00111e0800000000000000
+      internalID: -2228999524093643614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b13f810f688e480800000000000000
+      internalID: -8869691100337333498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e6b8c991a2ed4c0800000000000000
+      internalID: -4260921907956978171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56497bce2f847d0800000000000000
+      internalID: -2933828058725718551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d407db6cddcc700800000000000000
+      internalID: 562067899165986135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f5a3a38681b3210800000000000000
+      internalID: 1313670552241201000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b23ace5817ad90800000000000000
+      internalID: -7086668693245873385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bd80c9de7458e90800000000000000
+      internalID: -7024128957963773151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b6e35b7cf2db70800000000000000
+      internalID: 8922471418393178170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747c7b378edfd7b90800000000000000
+      internalID: -7242353450926225593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a5951e074c87dc0800000000000000
+      internalID: -3640944309632935274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd144a2f4ddc290800000000000000
+      internalID: -7868398835343434766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0f9bd8c048e000800000000000000
+      internalID: 65373426019142780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8cbcbe636cdc1f0800000000000000
+      internalID: -1022943601156699965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6557f5c4b24dcf0800000000000000
+      internalID: -228510074070018355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c045942a3da2f00800000000000000
+      internalID: 1092918553559174290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ee00e2359a27cf0800000000000000
+      internalID: -255956054087504262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d807265b3efb60c0800000000000000
+      internalID: -4581288665117423403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eb467aefd0a9c80800000000000000
+      internalID: -8315318374604947902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525bc55ff3e4a81d0800000000000000
+      internalID: -3347777336390142683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_2_spritesheet_idle_10_15_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c73687b5e1211b80800000000000000
+      internalID: -8425916157323233338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

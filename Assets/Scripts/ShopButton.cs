@@ -9,5 +9,12 @@ public class ShopButton : MonoBehaviour
     {
         SoundManager.instance.PlaySound(SoundManager.instance.buttonBasic);
         SceneManager.LoadScene("Shop");
+
+        Debug.Log(GardenManager.tutorialStillOn);
+
+        if (GardenManager.tutorialStillOn == true)
+        {
+            GardenManager.shopOpenedTuturial = true;
+        }
     }
 }

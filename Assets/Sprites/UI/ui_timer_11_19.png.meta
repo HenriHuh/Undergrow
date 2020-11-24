@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 59a3d985b75913f469ca700922c8e2c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5163538719038449262
+    second: ui_timer_11_19_0
+  - first:
+      213: -4065812523867090817
+    second: ui_timer_11_19_1
+  - first:
+      213: -5031383906307201504
+    second: ui_timer_11_19_2
+  - first:
+      213: -2978876171209217943
+    second: ui_timer_11_19_3
+  - first:
+      213: 6886370632846625016
+    second: ui_timer_11_19_4
+  - first:
+      213: 3429117811935200203
+    second: ui_timer_11_19_5
+  - first:
+      213: -6730970564812215424
+    second: ui_timer_11_19_6
+  - first:
+      213: 7120987383215003467
+    second: ui_timer_11_19_7
+  - first:
+      213: -6100532671845185411
+    second: ui_timer_11_19_8
+  - first:
+      213: -6881720449754504652
+    second: ui_timer_11_19_9
+  - first:
+      213: -9132791811739946534
+    second: ui_timer_11_19_10
+  - first:
+      213: -7354420225814083695
+    second: ui_timer_11_19_11
+  - first:
+      213: -6932482739079859529
+    second: ui_timer_11_19_12
+  - first:
+      213: -7100621192349028883
+    second: ui_timer_11_19_13
+  - first:
+      213: -2975712832841132107
+    second: ui_timer_11_19_14
+  - first:
+      213: 1304624137982393774
+    second: ui_timer_11_19_15
+  - first:
+      213: 7465930951468103424
+    second: ui_timer_11_19_16
+  - first:
+      213: -1989816337494091373
+    second: ui_timer_11_19_17
+  - first:
+      213: -1340254263842188987
+    second: ui_timer_11_19_18
+  - first:
+      213: -6719137340800942158
+    second: ui_timer_11_19_19
+  - first:
+      213: -5081273052219741555
+    second: ui_timer_11_19_20
+  - first:
+      213: 2817642241424707343
+    second: ui_timer_11_19_21
+  - first:
+      213: -7808701851913695914
+    second: ui_timer_11_19_22
+  - first:
+      213: 1882379484147333590
+    second: ui_timer_11_19_23
+  - first:
+      213: 3449859564357791758
+    second: ui_timer_11_19_24
+  - first:
+      213: -5459410975114308771
+    second: ui_timer_11_19_25
+  - first:
+      213: 1433348145972561073
+    second: ui_timer_11_19_26
+  - first:
+      213: 8739953126290268238
+    second: ui_timer_11_19_27
+  - first:
+      213: 8072834088575377045
+    second: ui_timer_11_19_28
+  - first:
+      213: 1184690388116036660
+    second: ui_timer_11_19_29
+  - first:
+      213: 8722844825238764391
+    second: ui_timer_11_19_30
+  - first:
+      213: 672150183094959174
+    second: ui_timer_11_19_31
+  - first:
+      213: -4071140608744764184
+    second: ui_timer_11_19_32
+  - first:
+      213: 8180526304540990989
+    second: ui_timer_11_19_33
+  - first:
+      213: 6010619948281504089
+    second: ui_timer_11_19_34
+  - first:
+      213: 9117609049681059676
+    second: ui_timer_11_19_35
+  - first:
+      213: 5148733100836442302
+    second: ui_timer_11_19_36
+  - first:
+      213: -2956471434299016687
+    second: ui_timer_11_19_37
+  - first:
+      213: -9021553824184174537
+    second: ui_timer_11_19_38
+  - first:
+      213: -289767011186345399
+    second: ui_timer_11_19_39
+  - first:
+      213: -619394750132025965
+    second: ui_timer_11_19_40
+  - first:
+      213: -6632657462647233118
+    second: ui_timer_11_19_41
+  - first:
+      213: 9023209924373836486
+    second: ui_timer_11_19_42
+  - first:
+      213: 6622298587054420467
+    second: ui_timer_11_19_43
+  - first:
+      213: 8723592371207064898
+    second: ui_timer_11_19_44
+  - first:
+      213: 1812735896019613701
+    second: ui_timer_11_19_45
+  - first:
+      213: 3672629280817613297
+    second: ui_timer_11_19_46
+  - first:
+      213: -2146787177326367171
+    second: ui_timer_11_19_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_timer_11_19_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66234c7b1398a740800000000000000
+      internalID: 5163538719038449262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7051971d055397c0800000000000000
+      internalID: -4065812523867090817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02621ff9efeec2ab0800000000000000
+      internalID: -5031383906307201504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e231b7e7e8a6d0800000000000000
+      internalID: -2978876171209217943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f84182ea9d419f50800000000000000
+      internalID: 6886370632846625016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3cc515b7ca69f20800000000000000
+      internalID: 3429117811935200203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08be1cafee9c692a0800000000000000
+      internalID: -6730970564812215424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b479192eb44d2d260800000000000000
+      internalID: 7120987383215003467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c0026bdd865ba0800000000000000
+      internalID: -6100532671845185411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43267dc36b73f70a0800000000000000
+      internalID: -6881720449754504652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f4ad1c3ec14180800000000000000
+      internalID: -9132791811739946534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_timer_11_19_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197476f15c9dfe990800000000000000
+      internalID: -7354420225814083695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

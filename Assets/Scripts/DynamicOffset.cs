@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Changes offset of a texture to create a parallax type of thing
 public class DynamicOffset : MonoBehaviour
 {
     Renderer mat;

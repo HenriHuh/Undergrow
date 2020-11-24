@@ -59,11 +59,21 @@ public class UIManager : MonoBehaviour
     public void WinScreen()
     {
         winScreen.SetActive(true);
+        foreach (Transform t in flowerParent)
+        {
+            GameObject g = Instantiate(t.gameObject, winScreen.GetComponentInChildren<HorizontalLayoutGroup>().transform);
+            g.transform.localScale /= 2;
+        }
     }
 
     public void LoseScreen()
     {
         loseScreen.SetActive(true);
+        foreach (Transform t in flowerParent)
+        {
+            GameObject g = Instantiate(t.gameObject, loseScreen.GetComponentInChildren<HorizontalLayoutGroup>().transform);
+            g.transform.localScale /= 2;
+        }
     }
 
 }

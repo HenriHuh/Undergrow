@@ -19,51 +19,39 @@ public class Tutorial : MonoBehaviour
 
     public bool activateGrowPointer;
     public static bool tutorialOn;
+    bool firstPointer;
 
     Vector3 growButton;
 
-    private void Awake()
-    {
-        SaveData data = GameData.saveData();
-        launchCount = launchCount + 1;
-
-        launchCount = data.launchCount;
-
-        activateGrowPointer = false;
-    }
 
     // Update is called once per frame
     void Update()
-    {
-        // on click in start screen 
-        //////
-        //if (data.launchCount <= 1)
-        //{
-        //startTutorial();
-        //}
-        //else
-        //{
-        //SceneManager.LoadScene("Garden");
-        //}
-        if (inventory.gameObject.activeSelf == true && !activateGrowPointer)
+    {   if (tutorialOn)
         {
-            //Debug.Log("coroutine choose seed started");
-            StartCoroutine(chooseSeed());
+            if (firstPointer == false)
+            {
+                StartCoroutine(planting());
+            }
+            if (inventory.gameObject.activeSelf == true && !activateGrowPointer)
+            {
+                //Debug.Log("coroutine choose seed started");
+                StartCoroutine(chooseSeed());
+            }
+            if (activateGrowPointer)
+            {
+                StartCoroutine(growSeed());
+            }
         }
-        if (activateGrowPointer)
-        {
-            StartCoroutine(growSeed());
-        }
+        
         
     }
 
-    public void startTutorial()
+    public void StartTutorialButton()
     {
-        tutorialOn = true;
-        //SceneManager.LoadScene("Tutorial");
         StartCoroutine(planting());
+        tutorialOn = true;
     }
-
+        
     IEnumerator planting()
     {
         yield return new WaitForSeconds(2);
@@ -96,10 +84,12 @@ public class Tutorial : MonoBehaviour
         //probably play animation
         handPointer1.SetActive(true);
         darkMode.SetActive(true);
+        firstPointer = true;
     }
 
     IEnumerator chooseSeed()
     {
+        //firstPointer = false;
         handPointer1.SetActive(false);
         yield return new WaitForSeconds(1);
         

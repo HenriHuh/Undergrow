@@ -44,14 +44,9 @@ public class MapGen : MonoBehaviour
     Vector3 previousUpdatePoint;
     List<MapNode> nodesToTile = new List<MapNode>();
     Coroutine tilingRoutine;
+    int cycleRate = 2; //Control how many tiles get mapped on each frame
 
     bool started;
-
-    //TODO: 
-    //  1. Start generating earlier
-    //  2. FIX OVERLAPPING SHIT
-
-    //NOTE: List.Find() is super heavy to run so maybe change that later?
 
 
     void Awake()
@@ -64,7 +59,11 @@ public class MapGen : MonoBehaviour
             GVar.currentPlant = currentPlant.plantVariables;
             GardenManager.currentPlant = PlantDataBase.GetName(currentPlant.plantVariables);
         }
-
+        GVar.collectableFlowerIndex.Clear();
+        for (int i = 0; i < GVar.currentPlant.flowers.Count; i++)
+        {
+            GVar.collectableFlowerIndex.Add(i);
+        }
 
         nodes.Clear();
         nodePool.Clear();
@@ -110,19 +109,19 @@ public class MapGen : MonoBehaviour
 
                         if (mapObj.maxClusterSize > 1)
                         {
-                            nodesToTile.Add(node);
-                            MakeCluster(node.point, mapObj.maxClusterSize, mapObj);
+                            if ((int)GVar.quality < 2) nodesToTile.Add(node);
+                            MakeCluster(node.point, mapObj);
                         }
                     }
                 }
             }
         }
 
-        foreach (MapNode n in nodes)
+        foreach (MapNode n in nodes) //What does this do??
         {
             if (Vector3.Distance(previousUpdatePoint, n.point) > genRadius * 0.75f && !nodesToTile.Contains(n))
             {
-                nodesToTile.Add(n);
+                if ((int)GVar.quality < 2) nodesToTile.Add(n);
             }
         }
 
@@ -243,8 +242,18 @@ public class MapGen : MonoBehaviour
         yield return new WaitForEndOfFrame();
         while (nodesToTile.Count > 0)
         {
-            MakeTile(nodesToTile[0]);
-            nodesToTile.RemoveAt(0);
+            for (int i = 0; i < cycleRate; i++)
+            {
+                if(nodesToTile.Count > 0)
+                {
+                    MakeTile(nodesToTile[0]);
+                    nodesToTile.RemoveAt(0);
+                }
+                else 
+                {
+                    break;
+                }
+            }
             yield return new WaitForEndOfFrame();
         }
         yield return null;
@@ -289,38 +298,38 @@ public class MapGen : MonoBehaviour
     /// <summary>
     /// Create a cluster around given point
     /// </summary>
-    void MakeCluster(Vector3 origin, int maxSize, MapObject mapObj)
+    void MakeCluster(Vector3 origin, MapObject mapObj)
     {
         
 
-        Vector3 currentPoint = origin;
         List<Vector3> positions = new List<Vector3>();
-        while (positions.Count < maxSize)
+        while (positions.Count < mapObj.maxClusterSize)
         {
-            if (Random.Range(0, maxSize - positions.Count) > 0)
+            if (Random.Range(0, mapObj.maxClusterSize - positions.Count) > 0)
             {
                 List<Vector3> availableSides = new List<Vector3>();
                 foreach (Vector3 s in sides)
                 {
-                    if (nodes.Find(n => n.point == origin + s) == null)
+                    if (nodes.Find(n => Equals(n.point, origin + s)) == null)
                     {
                         availableSides.Add(s);
                     }
                 }
                 if (availableSides.Count > 0)
                 {
-                    Vector3 p = currentPoint + availableSides[Random.Range(0, availableSides.Count - 1)];
+                    Vector3 p = origin + availableSides[Random.Range(0, availableSides.Count - 1)];
                     MapNode node = GetItemFromPool(mapObj);
                     node.gameObj.SetActive(true);
                     node.gameObj.transform.position = p;
                     node.point = p;
                     nodes.Add(node);
                     positions.Add(p);
-                    nodesToTile.Add(node);
+
+                    if ((int)GVar.quality < 2) { nodesToTile.Add(node); }
                 }
                 else
                 {
-                    positions.Remove(currentPoint);
+                    positions.Remove(origin);
                 }
             }
             else
@@ -329,7 +338,7 @@ public class MapGen : MonoBehaviour
             }
 
             if (positions.Count == 0) break;
-            currentPoint = positions[Tools.ExponentialRandom(0, positions.Count)];
+            origin = positions[Tools.ExponentialRandom(0, positions.Count)];
         }
 
     }
@@ -368,7 +377,8 @@ public class MapNode
         water,
         lava,
         seed,
-        mole
+        mole,
+        chest
     }
 
     public Vector3 point;

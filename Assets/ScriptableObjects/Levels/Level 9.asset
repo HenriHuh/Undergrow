@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19dd68650e817e408298af5021a726d, type: 3}
   m_Name: Level 9
   m_EditorClassIdentifier: 
-  rewardIcon: {fileID: 21300000, guid: da014d59a1fff984982c385206e45fa0, type: 3}
-  requiredExp: 2200
-  rewardCount: 1
-  rewardIndex: 0
-  type: 1
-  isPaid: 0
+  requiredExp: 6000
+  rewards:
+  - rewardCount: 1
+    rewardIndex: 4
+    isPaid: 0
+    type: 3
+  - rewardCount: 2
+    rewardIndex: 3
+    isPaid: 1
+    type: 3

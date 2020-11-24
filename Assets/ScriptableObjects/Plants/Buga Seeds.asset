@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Buga Seeds
   m_EditorClassIdentifier: 
   plantVariables:
-    plantName: Buga Seed
-    value: 40
+    plantName: Buga
+    value: 50
     depth: -125
     speed: 2.5
     seedSprite: {fileID: 21300000, guid: 4215f89395c7d3845947704076f59821, type: 3}
@@ -29,8 +29,8 @@ MonoBehaviour:
     - type: 0
       gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
         type: 3}
-      rarity: 0.579
-      maxClusterSize: 32
+      rarity: 0.639
+      maxClusterSize: 14
       tiles:
       - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
       - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}
@@ -45,7 +45,7 @@ MonoBehaviour:
     - type: 3
       gameObj: {fileID: 7145783183205835103, guid: 7a4437dec3c857f48be4f0b25991e7c8,
         type: 3}
-      rarity: 0.307
+      rarity: 0.325
       maxClusterSize: 0
       tiles: []
       depth: 0
@@ -56,5 +56,12 @@ MonoBehaviour:
       maxClusterSize: 0
       tiles: []
       depth: 0
-    plotIndex: 18
+    - type: 5
+      gameObj: {fileID: 5677787911760862040, guid: 333c53644c9afd34d95e499f73927619,
+        type: 3}
+      rarity: 0.012
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    plotIndex: 19
   index: 1

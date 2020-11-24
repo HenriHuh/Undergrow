@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This is used for collectable flowers
 public class Collectible : Interactable
 {
     [HideInInspector] public int id;
 
     private void OnEnable()
     {
-        id = Random.Range(0, GVar.currentPlant.flowers.Count);
+        if (GVar.collectableFlowerIndex.Count > 0)
+        {
+            id = GVar.collectableFlowerIndex[Random.Range(0, GVar.collectableFlowerIndex.Count)];
+        }
+        else
+        {
+            id = Random.Range(0, GVar.currentPlant.flowers.Count);
+        }
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = GVar.currentPlant.flowers[id].icons[GVar.currentPlant.flowers[id].icons.Count - 1];
     }
 
@@ -20,20 +28,13 @@ public class Collectible : Interactable
         if (GardenManager.currentPlant.flowerCounts[id] < GVar.currentPlant.flowers[id].icons.Count - 1)
         {
             GardenManager.currentPlant.flowerCounts[id]++;
+            if (GardenManager.currentPlant.flowerCounts[id] >= GVar.currentPlant.flowers[id].icons.Count - 1)
+            {
+                GVar.collectableFlowerIndex.Remove(id);
+            }
         }
-        //else
-        //{
-        //    GardenManager.money += GVar.currentPlant.flowers[id].value / 2;
-        //    if (GVar.harvestedFlowers.ContainsKey(GVar.currentPlant.flowers[id].index))
-        //    {
-        //        GVar.harvestedFlowers[GVar.currentPlant.flowers[id].index]++;
-        //    }
-        //    else
-        //    {
-        //        GVar.harvestedFlowers.Add(GVar.currentPlant.flowers[id].index, 1);
-        //    }
-        //}
         GameManager.instance.CollectItem(id);
+        DrawTree.instance.CollectEffectPlay();
         EffectManager.instance.PlayParticle(EffectManager.instance.seedCollected, transform.position);
         gameObject.SetActive(false);
     }

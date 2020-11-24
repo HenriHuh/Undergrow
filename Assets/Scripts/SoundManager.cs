@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip musicGarden;
     public AudioClip musicTree;
 
-    public AudioClip harvest;
+    public List<AudioClip> harvest;
     public AudioClip sprout;
     public AudioClip selectSeed;
     public AudioClip startRoot;
@@ -27,23 +27,35 @@ public class SoundManager : MonoBehaviour
     public AudioClip waterLowIndicator;
     public AudioClip buttonBasic;
     public AudioClip uiPop;
+    public AudioClip chestOpen;
+    public AudioClip seedBagOpen;
+
 
     AudioSource music;
-    AudioSource effect;
+    [HideInInspector] public AudioSource effect;
+    [HideInInspector] public AudioSource poisonSource;
+
 
     List<AudioClip> playingClips = new List<AudioClip>();
     Coroutine musicFadeRoutine;
     float musicVolume;
 
-    void Start()
+    void Awake()
     {
+
         music = transform.GetChild(0).GetComponent<AudioSource>();
         effect = transform.GetChild(1).GetComponent<AudioSource>();
+        poisonSource = transform.GetChild(2).GetComponent<AudioSource>();
+
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
             PlayMusic(music.clip);
+
+            //TODO:
+            //  Save and load volumes
+
         }
         else
         {
@@ -60,6 +72,11 @@ public class SoundManager : MonoBehaviour
     {
         musicVolume = vol;
         music.volume = vol;
+    }
+
+    public void SetPoisonVolume(float vol)
+    {
+        poisonSource.volume = vol;
     }
 
     public void SetEffectVolume(float vol)
@@ -83,6 +100,17 @@ public class SoundManager : MonoBehaviour
         {
             playingClips.Add(clip);
             effect.PlayOneShot(clip, volume);
+            StartCoroutine(RemoveFromPlaying(clip));
+        }
+    }
+
+    public void PlayHarvest()
+    {
+        AudioClip clip = harvest[Random.Range(0, harvest.Count)];
+        if (!playingClips.Contains(clip))
+        {
+            playingClips.Add(clip);
+            effect.PlayOneShot(clip);
             StartCoroutine(RemoveFromPlaying(clip));
         }
     }

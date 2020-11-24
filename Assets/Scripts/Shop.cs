@@ -11,6 +11,15 @@ public class Shop : MonoBehaviour
     public GameObject frontPage;
     public GameObject spacePage;
 
+    public GameObject buttonPrefab;
+    public Transform buttonParent;
+    List<int> values = new List<int>();
+    List<GameObject> buttons = new List<GameObject>();
+
+    public GameObject tutorialMoneyPointer;
+    public GameObject tutorialSeedPointer;
+    public GameObject tutorialPanel;
+
     public Button moka;
     public Button buga;
     public Button sogo;
@@ -19,6 +28,8 @@ public class Shop : MonoBehaviour
     public Sprite unAvailable;
     public static bool gardenButton = false;
     public Text moneyText;
+
+    bool moneyPointerActive = false;
     // In shop: standard amount of money is 40, when going back to the garden money is updated, but when going back to the shop money is again 40
 
     private void Start()
@@ -28,7 +39,20 @@ public class Shop : MonoBehaviour
         frontPage.SetActive(true);
         spacePage.SetActive(false);
         moneyText.text = GardenManager.money.ToString();
+
+        foreach (int i in GVar.unlockedSeedsIndex)
+        {
+            Plant p = PlantDataBase.instance.GetPlantByIndex(i);
+            GameObject g = Instantiate(buttonPrefab, buttonParent);
+            g.GetComponentInChildren<Text>().text = p.plantVariables.plantName;
+            g.transform.GetChild(3).GetComponent<Image>().sprite = p.plantVariables.seedSprite;
+            g.GetComponent<Button>().onClick.AddListener(() => BuySeed(p));
+            g.transform.GetChild(4).GetComponent<Text>().text = p.plantVariables.value.ToString();
+            buttons.Add(g);
+            values.Add(p.plantVariables.value);
+        }
     }
+
 
     private void Update()
     {
@@ -47,6 +71,37 @@ public class Shop : MonoBehaviour
         {
             sogo.GetComponent<Image>().sprite = unAvailable;
             sogo.GetComponent<Button>().interactable = false;
+        }
+        if (GardenManager.shopOpenedTuturial == true && moneyPointerActive == false)
+        {
+            StartCoroutine(shopPointers());
+        }
+        if (moneyPointerActive)
+        {
+            StartCoroutine(shopPointers2());
+        }
+
+
+        int i = 0;
+        foreach (int val in values)
+        {
+            if (GardenManager.money < val)
+            {
+                buttons[i].GetComponent<Image>().sprite = unAvailable;
+                buttons[i].GetComponent<Button>().interactable = false;
+            }
+            i++;
+        }
+    }
+
+    void BuySeed(Plant plant)
+    {
+        if (GardenManager.money >= plant.plantVariables.value)
+        {
+            GVar.playerSeedsIndex.Add(plant.index);
+            GardenManager.money -= plant.plantVariables.value;
+            SoundManager.instance.PlaySound(SoundManager.instance.buySeed);
+            GVar.completedTaskTypes.Add(TaskRequirement.Type.buyShop);
         }
     }
 
@@ -181,4 +236,22 @@ public class Shop : MonoBehaviour
         spacePage.SetActive(false);
     }
 
+    IEnumerator shopPointers()
+    {
+        yield return new WaitForSeconds(1);
+        tutorialMoneyPointer.SetActive(true);
+
+        moneyPointerActive = true;
+    }
+
+    IEnumerator shopPointers2()
+    {
+        yield return new WaitForSeconds(2);
+        tutorialMoneyPointer.SetActive(false);
+        tutorialSeedPointer.SetActive(true);
+        GardenManager.tutorialStillOn = false;
+        GardenManager.shopOpenedTuturial = false;
+        GardenManager.tutorialPart2StillOn = true;
+        Tutorial.tutorialOn = false;
+    }
 }

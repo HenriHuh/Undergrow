@@ -32,6 +32,12 @@ public class GameData
         file.Close();
     }
 
+    public static bool CheckExists()
+    {
+        string path = Application.persistentDataPath + "/garden.save";
+        return File.Exists(path);
+
+    }
 
     public static SaveData saveData()
     {
@@ -47,6 +53,7 @@ public class GameData
             if (GVar.saveVersion != data.version)
             {
                 Debug.Log("Old save version!");
+                GVar.newSave = true;
                 Save(data);
                 return new SaveData();
             }
@@ -56,6 +63,7 @@ public class GameData
         else
         {
             Debug.Log("Save file not found, try again");
+            GVar.newSave = true;
             return new SaveData();
         }
     }

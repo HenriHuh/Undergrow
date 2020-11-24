@@ -21,7 +21,6 @@ public class SeedSelect : MonoBehaviour
 
     //TODO: 
     //  1. Close window if clicked outside of it or smth
-    //  2. Make the thingie scrollable
 
     void OnEnable()
     {
@@ -139,8 +138,8 @@ public class SeedSelect : MonoBehaviour
                 g.GetComponent<SeedUIContainer>().plantName = PlantDataBase.instance.GetName(i);
                 g.GetComponent<Button>().onClick.AddListener(() => SelectObject(g));
                 g.GetComponentInChildren<Text>().text = "1";
-                g.GetComponent<Image>().sprite = 
-                    PlantDataBase.instance.GetPlantByIndex(i).plantVariables.seedSprite;
+                if (i == 3) g.GetComponentInChildren<Text>().text = ""; //No number for tutorial seed since it's always available
+                g.GetComponent<Image>().sprite = PlantDataBase.instance.GetPlantByIndex(i).plantVariables.seedSprite;
 
                 Color clr = Color.white;
                 clr.a = 0.5f;

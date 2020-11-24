@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Flower 3
   m_EditorClassIdentifier: 
   flowerName: "S\xF6g\xF6"
-  value: 40
-  flower: {fileID: 6424137722893264884, guid: d65cc95dd842e574bb7a0c6e8e4a98a2, type: 3}
+  value: 35
+  flower: {fileID: 6424137722893264884, guid: 41947bb43e40151488828ed7b0ce5287, type: 3}
   material: {fileID: 2100000, guid: 29cec3644ddc8c14db94e974a9480cce, type: 2}
   icons:
   - {fileID: 6742640475629907923, guid: 91cdd2e0e57393240a3e0eee8c9340b3, type: 3}

@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Obstacle : Interactable
 {
-
+    //Poison tiles
 
     public override void Interact()
     {
-        SoundManager.instance.PlaySound(SoundManager.instance.hitPoison);
-        DrawTree.instance.ReloadCheckpoint(false);
+        DrawTree.instance.WaterDrain();
     }
 }

@@ -24,7 +24,7 @@ public class PlantVariables
         plotIndex =     _plant.plotIndex;
         timeToGrow =    _plant.timeToGrow;
         silhouette =    _plant.silhouette;
-        flowerSprite =        _plant.flowerSprite;
+        flowerSprite =  _plant.flowerSprite;
     }
 
     public string plantName;

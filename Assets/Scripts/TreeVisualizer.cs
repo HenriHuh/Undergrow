@@ -10,7 +10,6 @@ public class TreeVisualizer : MonoBehaviour
     [Range(0, 1)] public float randomSpread;
     [Range(0, 1)] public float lineWidth;
     public Renderer backOverlay;
-    public Light endLight;
 
     //Other
     LineRenderer[] lines;
@@ -33,12 +32,6 @@ public class TreeVisualizer : MonoBehaviour
     private void Update()
     {
         backOverlay.material.color = Color.Lerp(Color.clear, Color.black,-1.25f + (GVar.currentPlant.depth + currentPosition.y) / GVar.currentPlant.depth);
-
-        endLight.range = (10 - (Mathf.Abs(GVar.currentPlant.depth) - Mathf.Abs(currentPosition.y))) / 8;
-        if (Mathf.Abs(GVar.currentPlant.depth) - Mathf.Abs(currentPosition.y) < 0)
-        {
-            endLight.gameObject.SetActive(false);
-        }
     }
 
     public void SetPosition(Vector3 target)

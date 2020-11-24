@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9397bfeb4b880444a86fed18effa738, type: 3}
   m_Name: t_6
   m_EditorClassIdentifier: 
+  description: 
   requirements:
-  - flowerId: 2
+  - type: 0
+    reqId: 2
     collectableAmount: 12
   id: 6
   rewardXp: 240
+  isDaily: 0

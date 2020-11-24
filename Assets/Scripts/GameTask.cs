@@ -10,14 +10,25 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Task", order = 2, menuName = "ScriptableObjects/Task")]
 public class GameTask : ScriptableObject
 {
+    public string description;
     public List<TaskRequirement> requirements;
     public int id;
     public int rewardXp;
+    public bool isDaily;
 }
 
 [System.Serializable]
 public class TaskRequirement
 {
-    public int flowerId;
+    public enum Type
+    {
+        flower,
+        plant,
+        anyPlant,
+        collectable,
+        buyShop
+    }
+    public Type type;
+    public int reqId;
     public int collectableAmount;
 }

@@ -21,7 +21,7 @@ public class SimpleEnemy : MonoBehaviour
         timer = timeToRoam / 2;
         direction = (int)Mathf.Sign(Random.Range(-1, 1));
         Vector3 localScale = transform.GetChild(0).transform.localScale;
-        localScale.x = -direction;
+        localScale.x = Mathf.Abs(localScale.x) * -direction;
         transform.GetChild(0).transform.localScale = localScale;
         attacking = speed * Time.deltaTime;
     }
@@ -34,10 +34,10 @@ public class SimpleEnemy : MonoBehaviour
         if (timer > timeToRoam)
         {
             //Direction change
-            direction = direction * -1;
+            direction = direction * -1f;
             timer = 0;
             Vector3 localScale = transform.GetChild(0).transform.localScale;
-            localScale.x = -direction;
+            localScale.x = Mathf.Abs(localScale.x)  * -direction;
             transform.GetChild(0).transform.localScale = localScale;
         }
 
@@ -50,18 +50,27 @@ public class SimpleEnemy : MonoBehaviour
             gameObject.SetActive(false);
         }
 
+        if (Physics.Linecast(transform.position, transform.position + transform.forward, GameManager.instance.obstacleLayer))
+        {
+            direction = direction * -1f;
+            timer = 0;
+            Vector3 localScale = transform.GetChild(0).transform.localScale;
+            localScale.x = Mathf.Abs(localScale.x) * -direction;
+            transform.GetChild(0).transform.localScale = localScale;
+        }
+
         if(TreeCollisionCheck.CheckCurrentCollision(DrawTree.instance.interactableLayer, lookoutSphere))
         {
             transform.position = Vector3.MoveTowards(transform.position, DrawTree.instance.GetPosition() + Vector3.up, attacking);
             timer = 0;
             var rotationVector = transform.rotation.eulerAngles;
             Vector3 localScale = transform.GetChild(0).transform.localScale;
-            if (localScale.x == -1)
+            if (localScale.x < 0)
             {
                 rotationVector.z = 40f;
                 transform.rotation = Quaternion.Euler(rotationVector);
             }
-            if (localScale.x == 1)
+            if (localScale.x > 0)
             {
                 rotationVector.z = -40f;
                 transform.rotation = Quaternion.Euler(rotationVector);

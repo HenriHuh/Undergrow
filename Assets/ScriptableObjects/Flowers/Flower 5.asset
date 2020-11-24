@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673d66764c016094f95f8f120a8ca8c6, type: 3}
   m_Name: Flower 5
   m_EditorClassIdentifier: 
-  flowerName: Joku
-  value: 50
-  flower: {fileID: 6424137722893264884, guid: d65cc95dd842e574bb7a0c6e8e4a98a2, type: 3}
+  flowerName: Aga
+  value: 40
+  flower: {fileID: 6424137722893264884, guid: 585fe5034374e1e4da1c0d58aa0d708e, type: 3}
   material: {fileID: 2100000, guid: dbbc3f37690ee7e48a14050240f26391, type: 2}
   icons:
-  - {fileID: 307266339702190038, guid: 81a64825a1d4c9942861a29b07ce2973, type: 3}
-  - {fileID: -9209790790971157054, guid: 81a64825a1d4c9942861a29b07ce2973, type: 3}
-  - {fileID: -608033803933317977, guid: 81a64825a1d4c9942861a29b07ce2973, type: 3}
-  - {fileID: 2031175986989785514, guid: 81a64825a1d4c9942861a29b07ce2973, type: 3}
-  - {fileID: 21300000, guid: 1ce64894ce1ab7a459ff9b93a83a10ad, type: 3}
-  index: 4
+  - {fileID: -5366626920929655022, guid: 5c709f444733bda41b78502b50467a9d, type: 3}
+  - {fileID: 1578385358576751845, guid: 5c709f444733bda41b78502b50467a9d, type: 3}
+  - {fileID: 8813234137536276592, guid: 5c709f444733bda41b78502b50467a9d, type: 3}
+  - {fileID: 1589047409660828048, guid: 5c709f444733bda41b78502b50467a9d, type: 3}
+  - {fileID: 21300000, guid: 66a1a37cb54dac8419a68638dccb399d, type: 3}
+  index: 5

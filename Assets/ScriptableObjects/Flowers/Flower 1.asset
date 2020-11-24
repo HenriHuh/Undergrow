@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowerName: Moka
   value: 8
-  flower: {fileID: 6424137722893264884, guid: 456968d018a5d9f41b75fe3182db7242, type: 3}
+  flower: {fileID: 6424137722893264884, guid: f5b296d47bef0674ab06de475682bd02, type: 3}
   material: {fileID: 2100000, guid: c0ce712c31978b441a4a37031b904fc4, type: 2}
   icons:
   - {fileID: 307266339702190038, guid: 81a64825a1d4c9942861a29b07ce2973, type: 3}

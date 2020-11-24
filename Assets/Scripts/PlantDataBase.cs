@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlantDataBase : MonoBehaviour
 {
     public List<Plant> plants;
-    public List<Flower> flowers;
+    public List<Flower> flowers; //These are not currently used for anything ??
+    public Color unreadyColor;
 
     public static PlantDataBase instance;
     private void Awake()

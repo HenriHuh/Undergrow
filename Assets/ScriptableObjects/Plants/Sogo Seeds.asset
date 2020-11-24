@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Sogo Seeds
   m_EditorClassIdentifier: 
   plantVariables:
-    plantName: "S\xF6g\xF6 Seed"
-    value: 150
+    plantName: "S\xF6g\xF6"
+    value: 200
     depth: -200
-    speed: 3
+    speed: 2.75
     seedSprite: {fileID: 21300000, guid: 3cbe26bd96ec78741bee49e525ef7d03, type: 3}
     flowerSprite: {fileID: 21300000, guid: 2c70cdc787447b243b292a7c1313f2c6, type: 3}
     flowerAnim: {fileID: 9100000, guid: 406af28d6b424a44980c5dd2e3a67c13, type: 2}
     silhouette: {fileID: 21300000, guid: b0b09f52dd9cd984ba50d5617d00da32, type: 3}
-    timeToGrow: 8
+    timeToGrow: 12
     flowers:
     - {fileID: 11400000, guid: 66337f20df69a964eb671ba0bdae159d, type: 2}
     - {fileID: 11400000, guid: 377ee282281d1e34ab13ef78e652578b, type: 2}
@@ -30,8 +30,8 @@ MonoBehaviour:
     - type: 0
       gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
         type: 3}
-      rarity: 0.579
-      maxClusterSize: 12
+      rarity: 0.586
+      maxClusterSize: 14
       tiles:
       - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
       - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}
@@ -46,7 +46,7 @@ MonoBehaviour:
     - type: 3
       gameObj: {fileID: 7145783183205835103, guid: 7a4437dec3c857f48be4f0b25991e7c8,
         type: 3}
-      rarity: 0.307
+      rarity: 0.331
       maxClusterSize: 0
       tiles: []
       depth: 0
@@ -60,10 +60,17 @@ MonoBehaviour:
     - type: 2
       gameObj: {fileID: 4747017110966376100, guid: b9396d7bd4bdcb942b20fbb91b9ee26d,
         type: 3}
-      rarity: 0.229
-      maxClusterSize: 12
+      rarity: 0.26
+      maxClusterSize: 10
       tiles:
       - {fileID: 11400000, guid: 967245b6d24a2194cbd320d7b4ea5e0b, type: 2}
       depth: -100
-    plotIndex: 5
+    - type: 5
+      gameObj: {fileID: 7145783183205835103, guid: cd46bf0f965d58c4f8d0bf2692b568e8,
+        type: 3}
+      rarity: 0.014
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    plotIndex: 23
   index: 2

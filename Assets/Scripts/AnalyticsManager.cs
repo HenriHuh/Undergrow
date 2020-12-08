@@ -27,7 +27,8 @@ public class AnalyticsManager : MonoBehaviour
         item_use,
         seed_complete,
         seed_fail,
-        plant_planted
+        plant_planted,
+        ses_length
     }
 
 
@@ -37,11 +38,17 @@ public class AnalyticsManager : MonoBehaviour
         {
             FB.Init(InitCallback, OnHideUnity);
             instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnDisable()
+    {
+        SendEvent(EventType.Custom, EventName.ses_length, gameTime);
     }
 
     private void Update()
@@ -67,13 +74,16 @@ public class AnalyticsManager : MonoBehaviour
                         Analytics.CustomEvent("items_used_ses", dict);
                         break;
                     case EventName.seed_complete:
-                        dict["seed_complete"] = GVar.seedFinished;
+                        dict["seed_complete"] = true;
                         Analytics.CustomEvent("seed_planted_ses", dict);
                         break;
                     case EventName.seed_fail:
-                        dict["seed_fail"] = GVar.seedFinished;
+                        dict["seed_complete"] = false;
+                        Analytics.CustomEvent("seed_complete", dict);
                         break;
                     case EventName.plant_planted:
+                        dict["planted"] = GVar.seedFinished;
+                        Analytics.CustomEvent("planted", dict);
                         break;
                     default:
                         break;
@@ -117,6 +127,10 @@ public class AnalyticsManager : MonoBehaviour
                     case EventName.plant_planted:
                         dict["seed_index"] = obj;
                         Analytics.CustomEvent("seeds_planted", dict);
+                        break;
+                    case EventName.ses_length:
+                        dict["ses_length"] = obj;
+                        Analytics.CustomEvent("ses_length", dict);
                         break;
                     default:
                         break;

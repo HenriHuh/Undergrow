@@ -40,38 +40,37 @@ public class Shop : MonoBehaviour
         spacePage.SetActive(false);
         moneyText.text = GardenManager.money.ToString();
 
-        foreach (int i in GVar.unlockedSeedsIndex)
+        foreach (Plant p in PlantDataBase.instance.plants)
         {
-            Plant p = PlantDataBase.instance.GetPlantByIndex(i);
+            if (p.index == 3) continue; //SKIP POPO
+
             GameObject g = Instantiate(buttonPrefab, buttonParent);
-            g.GetComponentInChildren<Text>().text = p.plantVariables.plantName;
-            g.transform.GetChild(3).GetComponent<Image>().sprite = p.plantVariables.seedSprite;
+            g.GetComponent<BuyButton>().SetUI(p);
             g.GetComponent<Button>().onClick.AddListener(() => BuySeed(p));
-            g.transform.GetChild(4).GetComponent<Text>().text = p.plantVariables.value.ToString();
             buttons.Add(g);
-            values.Add(p.plantVariables.value);
         }
+
     }
 
 
     private void Update()
     {
         moneyText.text = GardenManager.money.ToString();
-        if (GardenManager.money < 20)
-        {
-            moka.GetComponent<Image>().sprite = unAvailable;
-            moka.GetComponent<Button>().interactable = false;
-        }
-        if (GardenManager.money < 50)
-        {
-            buga.GetComponent<Image>().sprite = unAvailable;
-            buga.GetComponent<Button>().interactable = false;
-        }
-        if (GardenManager.money < 200)
-        {
-            sogo.GetComponent<Image>().sprite = unAvailable;
-            sogo.GetComponent<Button>().interactable = false;
-        }
+        //if (GardenManager.money < 20)
+        //{
+        //    moka.GetComponent<Image>().sprite = unAvailable;
+        //    moka.GetComponent<Button>().interactable = false;
+        //}
+        //if (GardenManager.money < 50)
+        //{
+        //    buga.GetComponent<Image>().sprite = unAvailable;
+        //    buga.GetComponent<Button>().interactable = false;
+        //}
+        //if (GardenManager.money < 200)
+        //{
+        //    sogo.GetComponent<Image>().sprite = unAvailable;
+        //    sogo.GetComponent<Button>().interactable = false;
+        //}
         if (GardenManager.shopOpenedTuturial == true && moneyPointerActive == false)
         {
             StartCoroutine(shopPointers());
@@ -82,28 +81,34 @@ public class Shop : MonoBehaviour
         }
 
 
-        int i = 0;
-        foreach (int val in values)
-        {
-            if (GardenManager.money < val)
-            {
-                buttons[i].GetComponent<Image>().sprite = unAvailable;
-                buttons[i].GetComponent<Button>().interactable = false;
-            }
-            i++;
-        }
+        //int i = 0;
+        //foreach (int val in values)
+        //{
+        //    if (GardenManager.money < val)
+        //    {
+        //        buttons[i].GetComponent<Image>().sprite = unAvailable;
+        //        buttons[i].GetComponent<Button>().interactable = false;
+        //    }
+        //    i++;
+        //}
     }
 
     void BuySeed(Plant plant)
     {
-        if (GardenManager.money >= plant.plantVariables.value)
+        if (GardenManager.money >= plant.plantVariables.value && GVar.unlockedSeedsIndex.Contains(plant.index))
         {
             GVar.playerSeedsIndex.Add(plant.index);
             GardenManager.money -= plant.plantVariables.value;
             SoundManager.instance.PlaySound(SoundManager.instance.buySeed);
             GVar.completedTaskTypes.Add(TaskRequirement.Type.buyShop);
         }
+
+        foreach (GameObject btn in buttons)
+        {
+            btn.GetComponent<BuyButton>().SetUI();
+        }
     }
+
 
     public void BuySeed10()
     {

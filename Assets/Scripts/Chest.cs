@@ -16,6 +16,9 @@ public class Chest : MonoBehaviour
     public Text chestCount;
     public Text keyCount;
 
+    public GameObject adsInfoScreen;
+    public Text adsInfo;
+
     [Tooltip("Possible rewards. One will be chosen.")] public List<ChestReward> rewards;
 
     private void Start()
@@ -30,10 +33,10 @@ public class Chest : MonoBehaviour
         UpdateUI();
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
-        int chestC = 0;
-        int keyC = 0;
+        int chestC = 0; //Chest count
+        int keyC = 0; //Key count
 
         foreach (int i in GVar.playerItemsIndex)
         {
@@ -52,6 +55,11 @@ public class Chest : MonoBehaviour
         keyCount.text = keyC.ToString();
     }
 
+    public void StartAd()
+    {
+        AdManager.instance.ShowAd(AdManager.AdType.RewardedVideo);
+    }
+
     public void OpenChest()
     {
         if (!GVar.playerItemsIndex.Contains(ItemManager.instance.GetIndexByType(Item.Type.Chest)))
@@ -63,12 +71,12 @@ public class Chest : MonoBehaviour
         else if (!GVar.playerItemsIndex.Contains(ItemManager.instance.GetIndexByType(Item.Type.Key)))
         {
             SoundManager.instance.PlaySound(SoundManager.instance.hitPoison);
-
+            adsInfo.text = "Watch ad(30s) for key?";
+            adsInfoScreen.SetActive(true);
             return;
         }
 
-        //Todo:
-        //  1. Play some epic cool animation thing
+
         button.SetActive(false);
         rewardButton.SetActive(true);
 

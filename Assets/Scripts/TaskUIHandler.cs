@@ -40,9 +40,6 @@ public class TaskUIHandler : MonoBehaviour
     Vector3 levelParentOrigin;
 
 
-    //TODO: 
-    //  1. Figure out why scrollbar handle is dumb
-
     void Start()
     {
         instance = this;
@@ -114,40 +111,24 @@ public class TaskUIHandler : MonoBehaviour
             }
         }
 
-        //TODO:
-        //  1. Add level rewards in seperate screen and crap
 
         foreach (LevelGoal lvl in LevelManager.instance.levels)
         {
-            //GameObject g = Instantiate(levelIconPrefab, levelParent);
-            //g.GetComponent<Image>().sprite = lvl.rewardIcon;
-            //g.GetComponentInChildren<Text>().text = lvl.rewardCount > 1 ? lvl.rewardCount.ToString() : "";
-            //goalObjects.Add(g);
             levelGoals.Add(lvl);
             if (GVar.experience >= lvl.requiredExp)
             {
                 prevGoal = lvl;
-                //g.transform.GetChild(2).GetComponent<Image>().fillAmount = 1;
 
                 if (!GVar.completedGoals.Contains(LevelManager.instance.GetIndex(lvl)))
                 {
                     GVar.completedGoals.Add(LevelManager.instance.GetIndex(lvl));
                     lvl.GetReward();
-                    //g.GetComponent<Animator>().SetTrigger("pop");
                 }
-                //else
-                //{
-                //    Destroy(g.GetComponent<Animator>());
-                //    g.GetComponent<Image>().color = Color.clear;
-                //    g.GetComponentInChildren<Text>().text = "";
-                //}
+
             }
             else if (activeGoal == null)
             {
-                //activeObject = g;
                 activeGoal = lvl;
-                //g.transform.GetChild(2).GetComponent<Image>().fillAmount = prevGoal == null 
-                    //? (float)GVar.experience / activeGoal.requiredExp : (float)(GVar.experience - prevGoal.requiredExp) / activeGoal.requiredExp; 
             }
         }
 
@@ -191,7 +172,6 @@ public class TaskUIHandler : MonoBehaviour
 
         tempExp = Mathf.Lerp(tempExp, target, Time.deltaTime * 2);
         experienceBarFill.fillAmount = tempExp;
-        //activeObject.transform.GetChild(2).GetComponent<Image>().fillAmount = tempExp;
 
 
         if (GVar.experience >= activeGoal.requiredExp && tempExp > 0.95f)
@@ -251,18 +231,6 @@ public class TaskUIHandler : MonoBehaviour
             GVar.completedGoals.Add(LevelManager.instance.GetIndex(activeGoal));
             SoundManager.instance.PlaySound(SoundManager.instance.completeLevel);
 
-            //Level up
-
-            //Call the info window
-            /*List<Sprite> sprites = new List<Sprite>();
-            sprites.Add(activeGoal.rewardIcon);
-            sprites.Add(activeGoal.rewardIcon);
-            List<string> infs = new List<string>();
-            infs.Add(" Don't mind this window.");
-            infs.Add(" Im just testing the animation.");
-            InfoPopUp.instance.Open(sprites, infs);
-            */
-
             GameObject popup = Instantiate(goalPopPrefab, transform);
             popup.transform.GetChild(0).GetComponent<Text>().text = "Level " + (GVar.completedGoals.Count + 1) + " Reached";
             foreach (LevelReward reward in activeGoal.rewards)
@@ -272,14 +240,12 @@ public class TaskUIHandler : MonoBehaviour
                 g.GetComponentInChildren<Text>().text = reward.rewardCount > 1 ? reward.rewardCount.ToString() : "";
             }
 
-            //activeObject.GetComponent<Animator>().SetTrigger("pop");
         }
 
         int index = levelGoals.IndexOf(activeGoal) + 1;
         if (index < levelGoals.Count)
         {
             activeGoal = levelGoals[index];
-            //activeObject = goalObjects[index];
         }
         else
         {
@@ -300,8 +266,8 @@ public class TaskUIHandler : MonoBehaviour
 
     void UpdateUI()
     {
-        currentLevelText.text = GVar.completedGoals.Count.ToString();
-        nextLevelText.text = (GVar.completedGoals.Count + 1).ToString();
+        currentLevelText.text = (GVar.completedGoals.Count + 1).ToString();
+        nextLevelText.text = (GVar.completedGoals.Count + 2).ToString();
         levelParentTargetPos = levelParentOrigin;
         for (int i = 2; i < LevelManager.instance.GetIndex(activeGoal); i++)
         {

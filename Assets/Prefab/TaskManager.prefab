@@ -132,6 +132,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 85eaf86aa851f8b47b1c27416d848a26, type: 2}
   - {fileID: 11400000, guid: 585331b1175dfba4b94b4783f7342b0b, type: 2}
   - {fileID: 11400000, guid: 1cc0d08cfee52144a8a40cf4f76f4304, type: 2}
+  - {fileID: 11400000, guid: b2ddb5d4e564d35499dec98cf6fc2060, type: 2}
   dailyTasks:
   - {fileID: 11400000, guid: c161c6cc5e3d50144b98d46c60cc9a07, type: 2}
   - {fileID: 11400000, guid: 8b87848fd90f7354c9c3261b08e14ddf, type: 2}
@@ -140,6 +141,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 466463b6dcf67c845a72973aa6cca202, type: 2}
   - {fileID: 11400000, guid: 4069fff3ef6c471418e25d4a3e80dd24, type: 2}
   - {fileID: 11400000, guid: af33c1cb741cc164086f99e16532d321, type: 2}
+  - {fileID: 11400000, guid: 7f5bf622961f2114eaa1e8b0908831f0, type: 2}
+  - {fileID: 11400000, guid: be3210bf1507c4c4fad6a2590dbce6ec, type: 2}
   allTasks: []
 --- !u!114 &-7950553965722742534
 MonoBehaviour:

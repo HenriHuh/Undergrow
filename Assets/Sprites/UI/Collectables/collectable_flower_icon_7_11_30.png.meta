@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: eddf1f0ac6c316744a661cda22fa5a30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1095499734047169202
+    second: collectable_flower_icon_7_11_30_0
+  - first:
+      213: -7605610480379746158
+    second: collectable_flower_icon_7_11_30_1
+  - first:
+      213: 5388574678631776302
+    second: collectable_flower_icon_7_11_30_2
+  - first:
+      213: 496899352638164293
+    second: collectable_flower_icon_7_11_30_3
+  - first:
+      213: 1767487297312064957
+    second: collectable_flower_icon_7_11_30_4
+  - first:
+      213: -8993581253723617149
+    second: collectable_flower_icon_7_11_30_5
+  - first:
+      213: -5685797391128795125
+    second: collectable_flower_icon_7_11_30_6
+  - first:
+      213: -5240320672301496640
+    second: collectable_flower_icon_7_11_30_7
+  - first:
+      213: 656213131623741606
+    second: collectable_flower_icon_7_11_30_8
+  - first:
+      213: 3955035642261090035
+    second: collectable_flower_icon_7_11_30_9
+  - first:
+      213: -3221594065573184121
+    second: collectable_flower_icon_7_11_30_10
+  - first:
+      213: 3507560215450301132
+    second: collectable_flower_icon_7_11_30_11
+  - first:
+      213: -2804966747336660877
+    second: collectable_flower_icon_7_11_30_12
+  - first:
+      213: -7176236724313221483
+    second: collectable_flower_icon_7_11_30_13
+  - first:
+      213: 4451766716606877843
+    second: collectable_flower_icon_7_11_30_14
+  - first:
+      213: 6195177066542914556
+    second: collectable_flower_icon_7_11_30_15
+  - first:
+      213: 4189415956144836814
+    second: collectable_flower_icon_7_11_30_16
+  - first:
+      213: 8795443008235178464
+    second: collectable_flower_icon_7_11_30_17
+  - first:
+      213: -3624118204415709453
+    second: collectable_flower_icon_7_11_30_18
+  - first:
+      213: 4835574335024515911
+    second: collectable_flower_icon_7_11_30_19
+  - first:
+      213: -2965267743523854705
+    second: collectable_flower_icon_7_11_30_20
+  - first:
+      213: -3346681865036770958
+    second: collectable_flower_icon_7_11_30_21
+  - first:
+      213: 7647686708898210123
+    second: collectable_flower_icon_7_11_30_22
+  - first:
+      213: 3283191689178152424
+    second: collectable_flower_icon_7_11_30_23
+  - first:
+      213: 1430135137442572726
+    second: collectable_flower_icon_7_11_30_24
+  - first:
+      213: -4973900245446389700
+    second: collectable_flower_icon_7_11_30_25
+  - first:
+      213: 2669739191899200493
+    second: collectable_flower_icon_7_11_30_26
+  - first:
+      213: -3308544016370989762
+    second: collectable_flower_icon_7_11_30_27
+  - first:
+      213: 3063031028084923315
+    second: collectable_flower_icon_7_11_30_28
+  - first:
+      213: 8360867865464586539
+    second: collectable_flower_icon_7_11_30_29
+  - first:
+      213: 8216894408550186992
+    second: collectable_flower_icon_7_11_30_30
+  - first:
+      213: -8249744209035926148
+    second: collectable_flower_icon_7_11_30_31
+  - first:
+      213: 4745900415547683269
+    second: collectable_flower_icon_7_11_30_32
+  - first:
+      213: 8939305343727188477
+    second: collectable_flower_icon_7_11_30_33
+  - first:
+      213: -2701428468847197529
+    second: collectable_flower_icon_7_11_30_34
+  - first:
+      213: -6292464550539118126
+    second: collectable_flower_icon_7_11_30_35
+  - first:
+      213: -6405425772622445964
+    second: collectable_flower_icon_7_11_30_36
+  - first:
+      213: 1143030321535669882
+    second: collectable_flower_icon_7_11_30_37
+  - first:
+      213: 1904129734765665880
+    second: collectable_flower_icon_7_11_30_38
+  - first:
+      213: -499229845701838045
+    second: collectable_flower_icon_7_11_30_39
+  - first:
+      213: -2735883461319741808
+    second: collectable_flower_icon_7_11_30_40
+  - first:
+      213: 6209183274274015446
+    second: collectable_flower_icon_7_11_30_41
+  - first:
+      213: 13235862707324220
+    second: collectable_flower_icon_7_11_30_42
+  - first:
+      213: 3976706986272207116
+    second: collectable_flower_icon_7_11_30_43
+  - first:
+      213: 355872251871646135
+    second: collectable_flower_icon_7_11_30_44
+  - first:
+      213: 7708320123886391405
+    second: collectable_flower_icon_7_11_30_45
+  - first:
+      213: 6027761059023497986
+    second: collectable_flower_icon_7_11_30_46
+  - first:
+      213: 1567222209463914908
+    second: collectable_flower_icon_7_11_30_47
+  - first:
+      213: 5250348144218723582
+    second: collectable_flower_icon_7_11_30_48
+  - first:
+      213: 5334013308103446230
+    second: collectable_flower_icon_7_11_30_49
+  - first:
+      213: 6071505985985535322
+    second: collectable_flower_icon_7_11_30_50
+  - first:
+      213: 9134707505585355374
+    second: collectable_flower_icon_7_11_30_51
+  - first:
+      213: -2662745102174523287
+    second: collectable_flower_icon_7_11_30_52
+  - first:
+      213: -9207505619093818824
+    second: collectable_flower_icon_7_11_30_53
+  - first:
+      213: 558182493164571261
+    second: collectable_flower_icon_7_11_30_54
+  - first:
+      213: 1012506564644970570
+    second: collectable_flower_icon_7_11_30_55
+  - first:
+      213: 6863414240341665114
+    second: collectable_flower_icon_7_11_30_56
+  - first:
+      213: 2631822992232710541
+    second: collectable_flower_icon_7_11_30_57
+  - first:
+      213: 5796326001866203519
+    second: collectable_flower_icon_7_11_30_58
+  - first:
+      213: -1150158971593314162
+    second: collectable_flower_icon_7_11_30_59
+  - first:
+      213: -4236376106841015932
+    second: collectable_flower_icon_7_11_30_60
+  - first:
+      213: -7268231237126017239
+    second: collectable_flower_icon_7_11_30_61
+  - first:
+      213: -1941485947830664178
+    second: collectable_flower_icon_7_11_30_62
+  - first:
+      213: -1760352605680515110
+    second: collectable_flower_icon_7_11_30_63
+  - first:
+      213: -4150071490610181248
+    second: collectable_flower_icon_7_11_30_64
+  - first:
+      213: -2281486368667073446
+    second: collectable_flower_icon_7_11_30_65
+  - first:
+      213: 8255012572351361519
+    second: collectable_flower_icon_7_11_30_66
+  - first:
+      213: -8864758167026191174
+    second: collectable_flower_icon_7_11_30_67
+  - first:
+      213: -2681975246896677529
+    second: collectable_flower_icon_7_11_30_68
+  - first:
+      213: 510907093440379539
+    second: collectable_flower_icon_7_11_30_69
+  - first:
+      213: 4348742234807565004
+    second: collectable_flower_icon_7_11_30_70
+  - first:
+      213: -8130933689602160362
+    second: collectable_flower_icon_7_11_30_71
+  - first:
+      213: -5109875729232727695
+    second: collectable_flower_icon_7_11_30_72
+  - first:
+      213: 387568477558706558
+    second: collectable_flower_icon_7_11_30_73
+  - first:
+      213: 5865850294092944768
+    second: collectable_flower_icon_7_11_30_74
+  - first:
+      213: -1486197326228836555
+    second: collectable_flower_icon_7_11_30_75
+  - first:
+      213: 7679703597553828642
+    second: collectable_flower_icon_7_11_30_76
+  - first:
+      213: -6283134449670177780
+    second: collectable_flower_icon_7_11_30_77
+  - first:
+      213: -1821013751388459815
+    second: collectable_flower_icon_7_11_30_78
+  - first:
+      213: 6675683775680418467
+    second: collectable_flower_icon_7_11_30_79
+  - first:
+      213: -6558799219778948058
+    second: collectable_flower_icon_7_11_30_80
+  - first:
+      213: 3959934380390152817
+    second: collectable_flower_icon_7_11_30_81
+  - first:
+      213: 833697712566684362
+    second: collectable_flower_icon_7_11_30_82
+  - first:
+      213: 2837429959176067805
+    second: collectable_flower_icon_7_11_30_83
+  - first:
+      213: -5655838996602766602
+    second: collectable_flower_icon_7_11_30_84
+  - first:
+      213: 5580445184728909335
+    second: collectable_flower_icon_7_11_30_85
+  - first:
+      213: 6530905032685088783
+    second: collectable_flower_icon_7_11_30_86
+  - first:
+      213: 2162426653796018535
+    second: collectable_flower_icon_7_11_30_87
+  - first:
+      213: -7221054479327618611
+    second: collectable_flower_icon_7_11_30_88
+  - first:
+      213: -5772957932517935614
+    second: collectable_flower_icon_7_11_30_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45659ccbc00cc0f0800000000000000
+      internalID: -1095499734047169202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2982af87091737690800000000000000
+      internalID: -7605610480379746158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20038dce1018ca40800000000000000
+      internalID: 5388574678631776302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d8e1b145755e600800000000000000
+      internalID: 496899352638164293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50d451550678810800000000000000
+      internalID: 1767487297312064957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectable_flower_icon_7_11_30_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3880131ff71603380800000000000000
+      internalID: -8993581253723617149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

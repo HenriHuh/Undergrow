@@ -8,7 +8,7 @@ public class TemporaryObjects : MonoBehaviour
     //to prevent memory flooding too much
 
     public static TemporaryObjects instance;
-    int maxObjCount = 100;
+    int maxObjCount = 70;
     List<GameObject> objects = new List<GameObject>();
 
     void Awake()

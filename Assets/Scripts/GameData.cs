@@ -56,6 +56,23 @@ public class GameData
                 GVar.newSave = true;
                 Save(data);
                 return new SaveData();
+
+            }
+
+            //Update GVar
+            {
+                GVar.playerSeedsIndex =     data.seedsIndex;
+                GVar.playerItemsIndex =     data.itemsIndex;
+                GVar.experience =           data.experience;
+                GVar.gardenSize =           data.gardenSize;
+                GVar.completedGoals =       data.completedGoals;
+                GVar.completedTasks =       data.completedTasks;
+                GVar.unlockedSeedsIndex =   data.unlockedSeedsIndex;
+                GardenManager.money =       data.money;
+                GardenManager.grownPlants = PlantDataBase.instance.ConvertToData(data.plantData);
+                if (data.harvestedFlowers != null) GVar.harvestedFlowers = data.harvestedFlowers;
+                if (GVar.completedGoals.Count > 15 && !GVar.unlockedSeedsIndex.Contains(6)) GVar.unlockedSeedsIndex.Add(6);
+                if (GVar.completedGoals.Count > 18 && !GVar.unlockedSeedsIndex.Contains(7)) GVar.unlockedSeedsIndex.Add(7);
             }
 
             return data;

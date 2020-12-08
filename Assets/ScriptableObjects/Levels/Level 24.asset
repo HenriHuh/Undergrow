@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredExp: 62000
   rewards:
-  - rewardCount: 1200
+  - rewardCount: 2000
     rewardIndex: 0
     isPaid: 0
     type: 0

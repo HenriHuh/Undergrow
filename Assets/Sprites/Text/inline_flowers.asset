@@ -1,5 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-7712899070130946993
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d3497448b8e86de4c84664bdc7d123b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +49,7 @@ MonoBehaviour:
   m_Name: inline_flowers
   m_EditorClassIdentifier: 
   hashCode: 209603776
-  material: {fileID: 4860215442129356110}
+  material: {fileID: -7712899070130946993}
   materialHashCode: 0
   m_Version: 1.1.0
   m_FaceInfo:
@@ -64,22 +100,34 @@ MonoBehaviour:
     m_HashCode: 625244237
   - m_ElementType: 2
     m_Unicode: 65534
-    m_GlyphIndex: 4
+    m_GlyphIndex: 5
     m_Scale: 1
     m_Name: inline_flowers_4
     m_HashCode: 625244235
   - m_ElementType: 2
     m_Unicode: 65534
-    m_GlyphIndex: 5
+    m_GlyphIndex: 6
     m_Scale: 1
     m_Name: inline_flowers_5
     m_HashCode: 625244234
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 7
+    m_Scale: 1
+    m_Name: inline_flowers_6
+    m_HashCode: 625244233
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: inline_flowers_7
+    m_HashCode: 625244232
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
       m_Width: 64
       m_Height: 63
-      m_HorizontalBearingX: -5
+      m_HorizontalBearingX: -10
       m_HorizontalBearingY: 31.5
       m_HorizontalAdvance: 64
     m_GlyphRect:
@@ -87,7 +135,7 @@ MonoBehaviour:
       m_Y: 193
       m_Width: 64
       m_Height: 63
-    m_Scale: 1.5
+    m_Scale: 1.25
     m_AtlasIndex: 0
     sprite: {fileID: -3332165270223817538, guid: d3497448b8e86de4c84664bdc7d123b4,
       type: 3}
@@ -95,7 +143,7 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 57
       m_Height: 61
-      m_HorizontalBearingX: -5
+      m_HorizontalBearingX: -10
       m_HorizontalBearingY: 30.5
       m_HorizontalAdvance: 57
     m_GlyphRect:
@@ -103,31 +151,15 @@ MonoBehaviour:
       m_Y: 193
       m_Width: 57
       m_Height: 61
-    m_Scale: 1.5
+    m_Scale: 1.25
     m_AtlasIndex: 0
     sprite: {fileID: 6606325185883311545, guid: d3497448b8e86de4c84664bdc7d123b4,
-      type: 3}
-  - m_Index: 3
-    m_Metrics:
-      m_Width: 63
-      m_Height: 57
-      m_HorizontalBearingX: -5
-      m_HorizontalBearingY: 28.5
-      m_HorizontalAdvance: 63
-    m_GlyphRect:
-      m_X: 190
-      m_Y: 192
-      m_Width: 63
-      m_Height: 57
-    m_Scale: 1.5
-    m_AtlasIndex: 0
-    sprite: {fileID: 3560424422972457170, guid: d3497448b8e86de4c84664bdc7d123b4,
       type: 3}
   - m_Index: 2
     m_Metrics:
       m_Width: 56
       m_Height: 64
-      m_HorizontalBearingX: -5
+      m_HorizontalBearingX: -10
       m_HorizontalBearingY: 32
       m_HorizontalAdvance: 56
     m_GlyphRect:
@@ -135,15 +167,31 @@ MonoBehaviour:
       m_Y: 192
       m_Width: 56
       m_Height: 64
-    m_Scale: 1.5
+    m_Scale: 1.25
     m_AtlasIndex: 0
     sprite: {fileID: 7280693602729172781, guid: d3497448b8e86de4c84664bdc7d123b4,
       type: 3}
-  - m_Index: 4
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 63
+      m_Height: 57
+      m_HorizontalBearingX: -10
+      m_HorizontalBearingY: 28.5
+      m_HorizontalAdvance: 63
+    m_GlyphRect:
+      m_X: 190
+      m_Y: 192
+      m_Width: 63
+      m_Height: 57
+    m_Scale: 1.25
+    m_AtlasIndex: 0
+    sprite: {fileID: 3560424422972457170, guid: d3497448b8e86de4c84664bdc7d123b4,
+      type: 3}
+  - m_Index: 5
     m_Metrics:
       m_Width: 63
       m_Height: 67
-      m_HorizontalBearingX: -5
+      m_HorizontalBearingX: -10
       m_HorizontalBearingY: 33.5
       m_HorizontalAdvance: 63
     m_GlyphRect:
@@ -151,15 +199,15 @@ MonoBehaviour:
       m_Y: 123
       m_Width: 63
       m_Height: 67
-    m_Scale: 1.5
+    m_Scale: 1.25
     m_AtlasIndex: 0
     sprite: {fileID: -4964781378947700127, guid: d3497448b8e86de4c84664bdc7d123b4,
       type: 3}
-  - m_Index: 5
+  - m_Index: 6
     m_Metrics:
       m_Width: 63
       m_Height: 66
-      m_HorizontalBearingX: -5
+      m_HorizontalBearingX: -10
       m_HorizontalBearingY: 33
       m_HorizontalAdvance: 63
     m_GlyphRect:
@@ -167,44 +215,41 @@ MonoBehaviour:
       m_Y: 123
       m_Width: 63
       m_Height: 66
-    m_Scale: 1.5
+    m_Scale: 1.25
     m_AtlasIndex: 0
     sprite: {fileID: 7770352210399502597, guid: d3497448b8e86de4c84664bdc7d123b4,
       type: 3}
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 63
+      m_Height: 65
+      m_HorizontalBearingX: -10
+      m_HorizontalBearingY: 33.625214
+      m_HorizontalAdvance: 63
+    m_GlyphRect:
+      m_X: 131
+      m_Y: 123
+      m_Width: 63
+      m_Height: 65
+    m_Scale: 1.5
+    m_AtlasIndex: 0
+    sprite: {fileID: 3555765064441218399, guid: d3497448b8e86de4c84664bdc7d123b4,
+      type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 60
+      m_Height: 62
+      m_HorizontalBearingX: -10
+      m_HorizontalBearingY: 31
+      m_HorizontalAdvance: 60
+    m_GlyphRect:
+      m_X: 195
+      m_Y: 126
+      m_Width: 60
+      m_Height: 62
+    m_Scale: 1.5
+    m_AtlasIndex: 0
+    sprite: {fileID: -6333990826781758435, guid: d3497448b8e86de4c84664bdc7d123b4,
+      type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
---- !u!21 &4860215442129356110
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: TextMeshPro/Sprite
-  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d3497448b8e86de4c84664bdc7d123b4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _CullMode: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}

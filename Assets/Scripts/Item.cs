@@ -16,7 +16,9 @@ public class Item : ScriptableObject
         SuperFertilizer,
         SeedBag,
         RareSeedBag,
-        Money
+        Money,
+        Water,
+        Invincibility
     }
     public string itemName;
     public int index;
@@ -41,19 +43,27 @@ public class Item : ScriptableObject
                 InventoryHandler.instance.AskItem(this);
                 break;
             case Type.SeedBag:
+                List<int> rewards = new List<int>();
                 for (int i = 0; i < 3; i++)
                 {
-                    GVar.playerSeedsIndex.Add(Random.Range(0,3));
+                    int r = Random.Range(0, 3);
+                    rewards.Add(r);
+                    GVar.playerSeedsIndex.Add(r);
                 }
+                InventoryHandler.instance.ShowSeedRewards(rewards);
                 GVar.playerItemsIndex.Remove(ItemManager.instance.GetIndexByType(type));
                 SoundManager.instance.PlaySound(SoundManager.instance.seedBagOpen);
                 break;
             case Type.RareSeedBag:
+                List<int> rareRewards = new List<int>();
                 int[] randSeed = { 2, 4, 5 };
                 for (int i = 0; i < 3; i++)
                 {
-                    GVar.playerSeedsIndex.Add(randSeed[Random.Range(0, randSeed.Length)]);
+                    int r = randSeed[Random.Range(0, randSeed.Length)];
+                    rareRewards.Add(r);
+                    GVar.playerSeedsIndex.Add(r);
                 }
+                InventoryHandler.instance.ShowSeedRewards(rareRewards);
                 GVar.playerItemsIndex.Remove(ItemManager.instance.GetIndexByType(type));
                 SoundManager.instance.PlaySound(SoundManager.instance.seedBagOpen);
                 break;

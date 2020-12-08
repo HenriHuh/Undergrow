@@ -17,6 +17,12 @@ MonoBehaviour:
   - type: 0
     reqId: 5
     collectableAmount: 300
+  - type: 0
+    reqId: 6
+    collectableAmount: 300
+  - type: 0
+    reqId: 7
+    collectableAmount: 300
   id: 81
-  rewardXp: 6300
+  rewardXp: 7500
   isDaily: 0

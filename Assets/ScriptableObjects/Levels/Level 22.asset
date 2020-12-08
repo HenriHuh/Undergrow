@@ -19,6 +19,10 @@ MonoBehaviour:
     isPaid: 0
     type: 2
   - rewardCount: 2
+    rewardIndex: 8
+    isPaid: 0
+    type: 3
+  - rewardCount: 2
     rewardIndex: 3
     isPaid: 1
     type: 3

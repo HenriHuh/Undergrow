@@ -29,9 +29,10 @@ public class SoundManager : MonoBehaviour
     public AudioClip uiPop;
     public AudioClip chestOpen;
     public AudioClip seedBagOpen;
+    public AudioClip useInvincibility;
 
 
-    AudioSource music;
+    [HideInInspector] public AudioSource music;
     [HideInInspector] public AudioSource effect;
     [HideInInspector] public AudioSource poisonSource;
 

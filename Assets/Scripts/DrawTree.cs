@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 public class DrawTree : MonoBehaviour
@@ -33,6 +34,7 @@ public class DrawTree : MonoBehaviour
     public GameObject obstaclesPanel;
     public GameObject collectablesPanel;
     public Animator pointerAnimator;
+    public Color powerColor;
     //Other things
     Vector3 currentPosition;
     Vector3 previousPosition;
@@ -63,8 +65,10 @@ public class DrawTree : MonoBehaviour
     float lightSize;
     float lightIntensity;
     Coroutine collectEffect;
+    float startTimer;
 
     public bool pointerShown;
+    bool invCoolDown, waterCoolDown;
 
     public static DrawTree instance;
 
@@ -82,6 +86,10 @@ public class DrawTree : MonoBehaviour
             globalLight.intensity = 0.75f;
             headLight.gameObject.SetActive(false);
         }
+        if (GVar.quality != GVar.Quality.high)
+        {
+            Camera.main.GetUniversalAdditionalCameraData().renderPostProcessing = false;
+        }
 
         diggingParticle.Play();
         headTrailColor = headTrailEffect.startColor;
@@ -90,10 +98,19 @@ public class DrawTree : MonoBehaviour
         lightSize = headLight.pointLightInnerRadius;
         lightIntensity = headLight.intensity;
         GVar.seedPlanted++;
+        SimpleEnemy.moles.Clear();
     }
 
     void Update()
     {
+        if (startTimer < 1.5f)
+        {
+            startTimer += Time.deltaTime;
+            Camera.main.orthographicSize = cameraSize + (1.5f - startTimer) * 0.3f;
+            cameraFollow.transform.position = Vector3.MoveTowards(cameraFollow.transform.position, Vector3.zero, Time.deltaTime);
+            return;
+        }
+
         if (GameManager.instance.gameEnded)
         {
             diggingParticle.Stop();
@@ -116,6 +133,8 @@ public class DrawTree : MonoBehaviour
                 pointer.SetActive(false);
             }
         }
+
+        
 
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -232,7 +251,7 @@ public class DrawTree : MonoBehaviour
             Restart();
         }
 
-        speedMultiplier = speedMultiplier > 2 ? speedMultiplier : speedMultiplier + Time.deltaTime * 0.05f;
+        speedMultiplier = speedMultiplier > 1.75f ? speedMultiplier : speedMultiplier + Time.deltaTime * 0.05f;
 
         cameraFollow.transform.position = Vector3.Lerp(cameraFollow.transform.position, currentPosition, Time.deltaTime * 5);
         diggingParticle.transform.position = currentPosition;
@@ -312,7 +331,7 @@ public class DrawTree : MonoBehaviour
             SoundManager.instance.PlaySound(SoundManager.instance.rootFinish);
             UIManager.instance.WinScreen();
             GVar.seedFinished++;
-            AnalyticsManager.SendEvent(AnalyticsManager.EventType.Custom, AnalyticsManager.EventName.seed_complete, GVar.currentPlant.plantName);
+            AnalyticsManager.SendEvent(AnalyticsManager.EventType.Custom, AnalyticsManager.EventName.seed_complete);
         }
         else
         {
@@ -412,13 +431,66 @@ public class DrawTree : MonoBehaviour
             t += Time.unscaledDeltaTime;
             headLight.pointLightInnerRadius = Mathf.MoveTowards(headLight.pointLightInnerRadius, lightSize, Time.unscaledDeltaTime * 0.5f);
             headLight.intensity = Mathf.MoveTowards(headLight.intensity, lightIntensity, Time.unscaledDeltaTime * 0.5f);
-            Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, cameraSize, Time.unscaledDeltaTime * 1f);
+            Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, cameraSize, Time.unscaledDeltaTime * 2f);
             yield return null;
         }
         headLight.pointLightInnerRadius = lightSize;
         Camera.main.orthographicSize = cameraSize;
         headLight.intensity = lightIntensity;
         yield return null;
+    }
+
+    public void ItemWater()
+    {
+        if (GVar.playerItemsIndex.Contains(ItemManager.instance.GetIndexByType(Item.Type.Water)))
+        {
+            GVar.playerItemsIndex.Remove(ItemManager.instance.GetIndexByType(Item.Type.Water));
+            SoundManager.instance.PlaySound(SoundManager.instance.collectWater);
+            water = 100;
+            UIManager.instance.UpdateItems();
+            waterCoolDown = true;
+            Invoke("ResetWaterCooldown", 1f);
+
+        }
+    }
+
+    void ResetWaterCooldown()
+    {
+        waterCoolDown = false;
+    }
+
+    public void ItemInvincibility()
+    {
+        if (GVar.playerItemsIndex.Contains(ItemManager.instance.GetIndexByType(Item.Type.Invincibility)))
+        {
+            GVar.playerItemsIndex.Remove(ItemManager.instance.GetIndexByType(Item.Type.Invincibility));
+            SoundManager.instance.PlaySound(SoundManager.instance.useInvincibility);
+            invulnerable = true;
+            Invoke("ResetInvulnerability", 10f);
+            Invoke("ResetTrailColor", 8f);
+
+            UIManager.instance.UpdateItems();
+            headTrailEffect.startColor = powerColor;
+        }
+    }
+
+    void ResetTrailColor()
+    {
+        StartCoroutine(TrailColorReset());
+    }
+    IEnumerator TrailColorReset()
+    {
+        float t = 0;
+        while (t < 2)
+        {
+            t += Time.deltaTime;
+            headTrailEffect.startColor = Color.Lerp(powerColor, headTrailColor, t / 2);
+            yield return null;
+        }
+        invCoolDown = false;
+        headTrailEffect.startColor = headTrailColor;
+        yield return null;
+
     }
 
     public void WaterDrain()
@@ -493,7 +565,7 @@ public class DrawTree : MonoBehaviour
         SoundManager.instance.PlaySound(SoundManager.instance.rootLose);
         Time.timeScale = 1;
         joystickVisual.SetActive(false);
-        AnalyticsManager.SendEvent(AnalyticsManager.EventType.Custom, AnalyticsManager.EventName.seed_fail, GVar.currentPlant.plantName);
+        AnalyticsManager.SendEvent(AnalyticsManager.EventType.Custom, AnalyticsManager.EventName.seed_fail);
 
     }
 
@@ -552,6 +624,7 @@ public class DrawTree : MonoBehaviour
                     CollectEffectPlay();
                     water = water + 35 > 100 ? 100 : water + 35;
                     SoundManager.instance.PlaySound(SoundManager.instance.collectWater);
+                    EffectManager.instance.PlayParticle(EffectManager.instance.waterCollect, currentPosition);
                     col.gameObject.SetActive(false);
                 }
                 else if (col.gameObject.tag == "Interactable")

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40ee55982c1ced428cd181700a761ac, type: 3}
+  m_Name: Endless
+  m_EditorClassIdentifier: 
+  plantVariables:
+    plantName: Endless
+    value: 10000
+    depth: -Infinity
+    speed: 3
+    seedSprite: {fileID: 21300000, guid: 9fff4fa30766b0d45be8118add655bb3, type: 3}
+    flowerSprite: {fileID: 21300000, guid: 21ef2499de247894f933d502bad35bca, type: 3}
+    flowerAnim: {fileID: 9100000, guid: 69eb61bdc1cf6734ab0250331096c94f, type: 2}
+    silhouette: {fileID: 21300000, guid: 7f9575ed346d9454c847b3c9d83d167a, type: 3}
+    timeToGrow: 0
+    flowers:
+    - {fileID: 11400000, guid: 66337f20df69a964eb671ba0bdae159d, type: 2}
+    - {fileID: 11400000, guid: 377ee282281d1e34ab13ef78e652578b, type: 2}
+    - {fileID: 11400000, guid: 4016e25ba66258948b388a8c34780818, type: 2}
+    - {fileID: 11400000, guid: 28fce1080c47e3041b9c97d60f02d1e9, type: 2}
+    - {fileID: 11400000, guid: ebb9dcc4cd21dfd4f95d1b8465bf4d61, type: 2}
+    mapObjects:
+    - type: 0
+      gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
+        type: 3}
+      rarity: 0.603
+      maxClusterSize: 12
+      tiles:
+      - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
+      - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}
+      depth: 0
+    - type: 1
+      gameObj: {fileID: 5122439825763243903, guid: 82344f6ee026c0c479dd789a3fac27d7,
+        type: 3}
+      rarity: 0.35
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    - type: 3
+      gameObj: {fileID: 7145783183205835103, guid: 7a4437dec3c857f48be4f0b25991e7c8,
+        type: 3}
+      rarity: 0.2
+      maxClusterSize: 1
+      tiles: []
+      depth: 0
+    - type: 4
+      gameObj: {fileID: 5677787911760862040, guid: 333c53644c9afd34d95e499f73927619,
+        type: 3}
+      rarity: 0.16
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    - type: 2
+      gameObj: {fileID: 4747017110966376100, guid: b9396d7bd4bdcb942b20fbb91b9ee26d,
+        type: 3}
+      rarity: 0.397
+      maxClusterSize: 10
+      tiles:
+      - {fileID: 11400000, guid: 967245b6d24a2194cbd320d7b4ea5e0b, type: 2}
+      depth: -100
+    - type: 5
+      gameObj: {fileID: 7145783183205835103, guid: cd46bf0f965d58c4f8d0bf2692b568e8,
+        type: 3}
+      rarity: 0.01
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    - type: 6
+      gameObj: {fileID: 7145783183205835103, guid: 1701a9ca4dba49f4da4fbaf67f27f18f,
+        type: 3}
+      rarity: 0.04
+      maxClusterSize: 0
+      tiles: []
+      depth: 0
+    plotIndex: 20
+  index: 10

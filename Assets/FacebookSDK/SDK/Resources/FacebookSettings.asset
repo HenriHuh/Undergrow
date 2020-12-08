@@ -24,7 +24,7 @@ MonoBehaviour:
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: 
+  androidKeystorePath: C:\Users\Henri\Desktop\GitProjektit\Balanced_Beans\Keystore\GooglePlay.keystore
   iosURLSuffix: 
   appLinkSchemes:
   - list: []

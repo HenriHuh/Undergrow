@@ -9,6 +9,7 @@ public class Interactable : MonoBehaviour
         StartCoroutine(CheckCollision());
     }
 
+    //This is propably unnecessary
     IEnumerator CheckCollision()
     {
         yield return new WaitForEndOfFrame();

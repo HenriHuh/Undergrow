@@ -18,7 +18,6 @@ public class TaskManager : MonoBehaviour
         {
             xpt += t.rewardXp;
         }
-        Debug.Log("total: " + xpt);
 
         if (instance == null)
         {

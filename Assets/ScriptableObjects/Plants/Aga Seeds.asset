@@ -16,7 +16,7 @@ MonoBehaviour:
     plantName: Aga
     value: 800
     depth: -275
-    speed: 3.25
+    speed: 3
     seedSprite: {fileID: 21300000, guid: e43cf2aab537a4d408c61b25995f67a0, type: 3}
     flowerSprite: {fileID: 21300000, guid: ddaa39e801f325541a4c99376e5befd2, type: 3}
     flowerAnim: {fileID: 9100000, guid: 75b34bc51e114dc4ab7aa7c0346843a4, type: 2}
@@ -31,7 +31,7 @@ MonoBehaviour:
       gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
         type: 3}
       rarity: 0.63
-      maxClusterSize: 16
+      maxClusterSize: 12
       tiles:
       - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
       - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}
@@ -46,7 +46,7 @@ MonoBehaviour:
     - type: 3
       gameObj: {fileID: 7145783183205835103, guid: 7a4437dec3c857f48be4f0b25991e7c8,
         type: 3}
-      rarity: 0.361
+      rarity: 0.33
       maxClusterSize: 0
       tiles: []
       depth: 0
@@ -60,8 +60,8 @@ MonoBehaviour:
     - type: 2
       gameObj: {fileID: 4747017110966376100, guid: b9396d7bd4bdcb942b20fbb91b9ee26d,
         type: 3}
-      rarity: 0.506
-      maxClusterSize: 12
+      rarity: 0.464
+      maxClusterSize: 10
       tiles:
       - {fileID: 11400000, guid: 967245b6d24a2194cbd320d7b4ea5e0b, type: 2}
       depth: -100
@@ -72,5 +72,5 @@ MonoBehaviour:
       maxClusterSize: 0
       tiles: []
       depth: 0
-    plotIndex: 15
+    plotIndex: 4
   index: 5

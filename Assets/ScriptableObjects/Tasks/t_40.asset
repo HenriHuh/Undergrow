@@ -15,14 +15,8 @@ MonoBehaviour:
   description: 
   requirements:
   - type: 0
-    reqId: 2
-    collectableAmount: 66
-  - type: 0
-    reqId: 3
-    collectableAmount: 40
-  - type: 0
-    reqId: 4
-    collectableAmount: 44
+    reqId: 7
+    collectableAmount: 50
   id: 40
-  rewardXp: 1200
+  rewardXp: 1700
   isDaily: 0

@@ -30,7 +30,7 @@ public class GardenManager : MonoBehaviour
     public GameObject taskPointer;
     public Slider musicSlider;
     public Slider effectSlider;
-
+    public Animator itemsAnimator;
     //Static
     public static GardenManager instance;
     public static bool plantGrown = false;
@@ -64,7 +64,7 @@ public class GardenManager : MonoBehaviour
     //float waitTime = 0;
     public static bool tutorialStillOn;
     public static bool tutorialPart2StillOn;
-
+    public static bool chestFound;
 
 
     void OnApplicationQuit()
@@ -77,27 +77,41 @@ public class GardenManager : MonoBehaviour
         instance = this;
 
         SetQuality(0);
+        if (chestFound)
+        {
+            itemsAnimator.enabled = true;
+            Invoke("DisableItemAnimator", 3f);
+            chestFound = false;
+        }
+
         if (plantGrown)
         {
-            if (GVar.plantedFlowers.ContainsKey(PlantDataBase.instance.GetIndexByName(currentPlant.plantName)))
+
+            if (GameManager.isEndless)
             {
-                GVar.plantedFlowers[PlantDataBase.instance.GetIndexByName(currentPlant.plantName)]++;
+                GameManager.isEndless = false;
             }
             else
             {
-                GVar.plantedFlowers.Add(PlantDataBase.instance.GetIndexByName(currentPlant.plantName), 1);
+                if (GVar.plantedFlowers.ContainsKey(PlantDataBase.instance.GetIndexByName(currentPlant.plantName)))
+                {
+                    GVar.plantedFlowers[PlantDataBase.instance.GetIndexByName(currentPlant.plantName)]++;
+                }
+                else
+                {
+                    GVar.plantedFlowers.Add(PlantDataBase.instance.GetIndexByName(currentPlant.plantName), 1);
+                }
+                if (!GVar.completedTaskTypes.Contains(TaskRequirement.Type.anyPlant))
+                {
+                    GVar.completedTaskTypes.Add(TaskRequirement.Type.anyPlant);
+                }
+                grownPlants.Add(currentPlant);
+                SoundManager.instance.PlaySound(SoundManager.instance.sprout);
+                AnalyticsManager.SendEvent(
+                    AnalyticsManager.EventType.Custom,
+                    AnalyticsManager.EventName.plant_planted,
+                    PlantDataBase.instance.GetPlantByName(currentPlant.plantName).index);
             }
-            if (!GVar.completedTaskTypes.Contains(TaskRequirement.Type.anyPlant))
-            {
-                GVar.completedTaskTypes.Add(TaskRequirement.Type.anyPlant);
-            }
-            grownPlants.Add(currentPlant);
-            SoundManager.instance.PlaySound(SoundManager.instance.sprout);
-            AnalyticsManager.SendEvent(
-                AnalyticsManager.EventType.Custom, 
-                AnalyticsManager.EventName.plant_planted, 
-                PlantDataBase.instance.GetPlantByName(currentPlant.plantName).index);
-
         }
 
         if (!firstOpen)
@@ -112,19 +126,19 @@ public class GardenManager : MonoBehaviour
             //GameData.Save(new SaveData());
         }
 
-        SaveData data = GameData.saveData();
+        GameData.saveData();
 
-        money = data.money;
+        //money = data.money;
         tempMoney = money;
         moneyVisual = money;
-        GVar.playerSeedsIndex = data.seedsIndex;
-        GVar.playerItemsIndex = data.itemsIndex;
-        GVar.experience = data.experience;
-        GVar.gardenSize = data.gardenSize;
-        GVar.completedGoals = data.completedGoals;
-        GVar.completedTasks = data.completedTasks;
-        GVar.unlockedSeedsIndex = data.unlockedSeedsIndex;
-        grownPlants = PlantDataBase.instance.ConvertToData(data.plantData);
+        //GVar.playerSeedsIndex = data.seedsIndex;
+        //GVar.playerItemsIndex = data.itemsIndex;
+        //GVar.experience = data.experience;
+        //GVar.gardenSize = data.gardenSize;
+        //GVar.completedGoals = data.completedGoals;
+        //GVar.completedTasks = data.completedTasks;
+        //GVar.unlockedSeedsIndex = data.unlockedSeedsIndex;
+        //grownPlants = PlantDataBase.instance.ConvertToData(data.plantData);
         moneyText.text = money.ToString();
 
         //Create layout
@@ -172,8 +186,6 @@ public class GardenManager : MonoBehaviour
         {
             PlacePlant(p, p.plotIndex);
         }
-
-        if (data.harvestedFlowers != null) GVar.harvestedFlowers = data.harvestedFlowers;
 
         if (GVar.playerSeedsIndex == null)
         {
@@ -338,6 +350,11 @@ public class GardenManager : MonoBehaviour
         //Debug.Log(tutorialStillOn);
     }
 
+    void DisableItemAnimator()
+    {
+        itemsAnimator.enabled = false;
+    }
+
     public bool CheckActiveMenus()
     {
         foreach (GameObject g in activeMenus)
@@ -358,6 +375,12 @@ public class GardenManager : MonoBehaviour
     void CloseSettingsInvokable()
     {
         settings.SetActive(false);
+    }
+
+    public void LoadStartScreen()
+    {
+        GameData.Save(new SaveData());
+        SceneManager.LoadScene("StartScreen");
     }
 
     public void DragUI()
@@ -448,8 +471,9 @@ public class GardenManager : MonoBehaviour
     public void Cheat()
     {
         GVar.playerItemsIndex.Add(ItemManager.instance.GetIndexByType(Item.Type.Chest));
-        GVar.playerItemsIndex.Add(ItemManager.instance.GetIndexByType(Item.Type.Key));
+        //GVar.playerItemsIndex.Add(ItemManager.instance.GetIndexByType(Item.Type.Key));
         cheatcount++;
+        GVar.experience += 10000;
         foreach (GardenPlot plot in plots)
         {
             plot.Fertilize();
@@ -499,13 +523,9 @@ public class GardenManager : MonoBehaviour
     public void SelectSeed(string name)
     {
 
-        //Checks the value of the plant.
-        //Should be changed to be free later 
-        //,since plant seeds are bought seperately from the shop.
         PlantVariables toSelect = new PlantVariables(PlantDataBase.instance.GetPlantByName(name).plantVariables);
         GVar.playerSeedsIndex.Remove(PlantDataBase.instance.GetIndexByName(name));
 
-        //toSelect.plantVariables.plotIndex = GardenPlot.selected.index;
         GVar.currentPlant = toSelect;
         System.DateTime finishTime = System.DateTime.Now;
 

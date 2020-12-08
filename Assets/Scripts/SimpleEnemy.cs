@@ -11,6 +11,10 @@ public class SimpleEnemy : MonoBehaviour
     public float speed;
     public float attacking;
 
+    float timeFromTurn;
+    int turnCount;
+
+    public static List<GameObject> moles = new List<GameObject>();
 
     void Start()
     {
@@ -23,7 +27,20 @@ public class SimpleEnemy : MonoBehaviour
         Vector3 localScale = transform.GetChild(0).transform.localScale;
         localScale.x = Mathf.Abs(localScale.x) * -direction;
         transform.GetChild(0).transform.localScale = localScale;
-        attacking = speed * Time.deltaTime;
+        attacking = speed * Time.deltaTime / 2;
+    }
+
+    private void OnEnable()
+    {
+        moles.Add(gameObject);
+        timeFromTurn = 1f;
+        turnCount = 0;
+    }
+
+    private void OnDisable()
+    {
+        moles.Remove(gameObject);
+        EffectManager.instance.PlayParticle(EffectManager.instance.moleDestroy, transform.position);
     }
 
     void Update()
@@ -50,13 +67,22 @@ public class SimpleEnemy : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        if (Physics.Linecast(transform.position, transform.position + transform.forward, GameManager.instance.obstacleLayer))
+        timeFromTurn += Time.deltaTime;
+        if (Physics.Linecast(transform.position, transform.position + (transform.right * direction), GameManager.instance.obstacleLayer))
         {
             direction = direction * -1f;
             timer = 0;
             Vector3 localScale = transform.GetChild(0).transform.localScale;
             localScale.x = Mathf.Abs(localScale.x) * -direction;
             transform.GetChild(0).transform.localScale = localScale;
+
+            //Disable mole if it's stuck
+            if (timeFromTurn < 0.25f)
+            {
+                turnCount++;
+                if (turnCount > 3) gameObject.SetActive(false);
+            }
+            timeFromTurn = 0;
         }
 
         if(TreeCollisionCheck.CheckCurrentCollision(DrawTree.instance.interactableLayer, lookoutSphere))

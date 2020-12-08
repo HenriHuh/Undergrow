@@ -29,7 +29,7 @@ public class MapGen : MonoBehaviour
     public float distanceToUpdate;
     [Tooltip("Radius to generate objects in.")]
     public float genRadius;
-    [Tooltip("List of objects to create.")]
+    [Tooltip("Set this to endless.")]
     public Plant currentPlant;
 
 
@@ -46,18 +46,19 @@ public class MapGen : MonoBehaviour
     Coroutine tilingRoutine;
     int cycleRate = 2; //Control how many tiles get mapped on each frame
 
+    [HideInInspector] public bool isEndless = false;
     bool started;
-
 
     void Awake()
     {
         previousUpdatePoint = Vector3.up * distanceToUpdate * 1.75f;
         instance = this;
 
-        if (GVar.currentPlant == null) //For testing the tree scene
+        if (GVar.currentPlant == null) //Start endless
         {
             GVar.currentPlant = currentPlant.plantVariables;
             GardenManager.currentPlant = PlantDataBase.GetName(currentPlant.plantVariables);
+            isEndless = true;
         }
         GVar.collectableFlowerIndex.Clear();
         for (int i = 0; i < GVar.currentPlant.flowers.Count; i++)
@@ -72,6 +73,12 @@ public class MapGen : MonoBehaviour
 
     void LateStart()
     {
+        if (isEndless)
+        {
+            //Set variables for endless
+            GameManager.isEndless = true;
+        }
+
         started = true;
     }
 
@@ -378,7 +385,8 @@ public class MapNode
         lava,
         seed,
         mole,
-        chest
+        chest,
+        heart
     }
 
     public Vector3 point;

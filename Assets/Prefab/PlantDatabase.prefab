@@ -50,6 +50,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87f4854cc3346ae448e0d5d1386c8ac3, type: 2}
   - {fileID: 11400000, guid: 4b03ee9af47c2c44182469d9b5d0c7c6, type: 2}
   - {fileID: 11400000, guid: 53a29ecff696eba4da4877161518d48c, type: 2}
+  - {fileID: 11400000, guid: b00b8d0b90286d94791f9b9cad68ea86, type: 2}
+  - {fileID: 11400000, guid: 938b6a4a8b210ba46a540b6c33defc64, type: 2}
   flowers:
   - {fileID: 11400000, guid: d2b68c6d335cc59459f20cdd7d954d80, type: 2}
   - {fileID: 11400000, guid: 66337f20df69a964eb671ba0bdae159d, type: 2}
@@ -57,4 +59,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4016e25ba66258948b388a8c34780818, type: 2}
   - {fileID: 11400000, guid: 28fce1080c47e3041b9c97d60f02d1e9, type: 2}
   - {fileID: 11400000, guid: ebb9dcc4cd21dfd4f95d1b8465bf4d61, type: 2}
+  - {fileID: 11400000, guid: 16cbe8b3be684194e91ba6155a357bee, type: 2}
+  - {fileID: 11400000, guid: 394e8082193f3b741b1cbb271ca425f1, type: 2}
   unreadyColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}

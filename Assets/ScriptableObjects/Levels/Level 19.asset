@@ -15,14 +15,14 @@ MonoBehaviour:
   requiredExp: 28500
   rewards:
   - rewardCount: 2
-    rewardIndex: 6
+    rewardIndex: 7
     isPaid: 0
-    type: 3
+    type: 2
   - rewardCount: 2
     rewardIndex: 2
     isPaid: 1
     type: 3
-  - rewardCount: 1400
-    rewardIndex: 0
+  - rewardCount: 2
+    rewardIndex: 6
     isPaid: 1
-    type: 0
+    type: 3

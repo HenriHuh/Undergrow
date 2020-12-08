@@ -30,7 +30,7 @@ MonoBehaviour:
       gameObj: {fileID: 8536611928172141800, guid: c96e7c0c9c573ae40b99b5822afe9cd9,
         type: 3}
       rarity: 0.614
-      maxClusterSize: 12
+      maxClusterSize: 10
       tiles:
       - {fileID: 11400000, guid: 09b63e590b76fd1498bbce66b8b4c4d4, type: 2}
       - {fileID: 11400000, guid: bcfd928b6438aa244b480ae50ffc21e0, type: 2}

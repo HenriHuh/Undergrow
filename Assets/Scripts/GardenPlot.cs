@@ -134,9 +134,10 @@ public class GardenPlot : MonoBehaviour
     {
         string counts = "";
         int index = 0;
+
         foreach (int i in flowerCounts)
         {
-            counts += i + " <sprite=" + plant.flowers[index].index + ">\n";
+            if(i > 0) counts += i + " <sprite=" + plant.flowers[index].index + ">\n";
             index++;
         }
         countsText.text = counts;
@@ -159,6 +160,7 @@ public class GardenPlot : MonoBehaviour
             Invoke("HideTimer", 3);
             return;
         }
+
 
         List<int> harvestableIndex = new List<int>();
         for (int i = 0; i < flowerCounts.Count; i++)

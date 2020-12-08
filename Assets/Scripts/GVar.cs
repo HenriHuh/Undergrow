@@ -20,7 +20,7 @@ public static class GVar
     public static List<int> playerSeedsIndex =  new List<int>();
 
     //Items owned by the player listed by their index
-    public static List<int> playerItemsIndex = new List<int>();
+    public static List<int> playerItemsIndex = new List<int>() { 7, 7, 8, 8 };
 
     //Total harvested flowers by index
     public static Dictionary<int, int> harvestedFlowers = new Dictionary<int, int>();

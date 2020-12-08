@@ -91,6 +91,9 @@ public class PlantDataBase : MonoBehaviour
         return plants.Find(p => p.plantVariables.plantName == _name).index;
     }
 
+    /// <summary>
+    /// Convert data to int list for saving
+    /// </summary>
     public List<List<int>> ConvertToList(List<PlantData> data)
     {
         List<List<int>> list = new List<List<int>>();
@@ -101,6 +104,9 @@ public class PlantDataBase : MonoBehaviour
         return list;
     }
 
+    /// <summary>
+    /// Convert savedata to plantdata
+    /// </summary>
     public List<PlantData> ConvertToData(List<List<int>> data)
     {
         List<PlantData> list = new List<PlantData>();
@@ -111,19 +117,31 @@ public class PlantDataBase : MonoBehaviour
         return list;
     }
 
+    /// <summary>
+    /// Convert int value from savedata to int list of flower counts
+    /// </summary>
     public List<int> ConvertToFlowerIndex(int flowerCounts)
     {
         List<int> flowers = new List<int>();
-        for (int i = 0; i < flowerCounts.ToString().Length; i++)
+
+        //In new save system 9 is added as a key for the flower counts
+        //Check if new data and remove the 9
+        string flowerString = flowerCounts.ToString();
+        flowerString = flowerString.Replace("9", "");
+
+        for (int i = 0; i < flowerString.Length; i++)
         {
-            flowers.Add(int.Parse(flowerCounts.ToString()[i].ToString())); //UGH
+            flowers.Add(int.Parse(flowerString[i].ToString())); //UGH
         }
         return flowers;
     }
 
+    /// <summary>
+    /// Convert flower count list to single int. Adds 9 in the start to prevent data loss if first is 0
+    /// </summary>
     public int ConvertFlowerCountsToInt(List<int> flowers)
     {
-        string flowerString = "";
+        string flowerString = "9";
         foreach (int f in flowers)
         {
             flowerString += f < 1 ? "0" : f.ToString();

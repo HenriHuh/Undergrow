@@ -23,6 +23,6 @@ MonoBehaviour:
     isPaid: 1
     type: 3
   - rewardCount: 2
-    rewardIndex: 4
+    rewardIndex: 6
     isPaid: 1
     type: 2

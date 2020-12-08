@@ -172,7 +172,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.75
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
   completeTask: {fileID: 8300000, guid: ff92bf7e9b97da74f8d5d96455b998af, type: 3}
   completeLevel: {fileID: 8300000, guid: 56bbadcb693c879469bd3ecfcd62f4ba, type: 3}
   collectSeed: {fileID: 8300000, guid: 3d41953b983da3047a2c7ddeacb85bee, type: 3}
-  collectWater: {fileID: 8300000, guid: 36683fcfd9b17e649a8382f678ba6df5, type: 3}
+  collectWater: {fileID: 8300000, guid: 410a0419f8097d347936deb917806137, type: 3}
   hitRock: {fileID: 8300000, guid: 0eb9606c0b65f5a42be0701b0fcedb05, type: 3}
   hitPoison: {fileID: 8300000, guid: ac129c941ba1a96438e50f0ea43da001, type: 3}
   hitMole: {fileID: 8300000, guid: 7d24222b7a4f95b45950f65fd6414f79, type: 3}
@@ -452,5 +452,6 @@ MonoBehaviour:
   uiPop: {fileID: 8300000, guid: 90aad7a144101be418dfbbc8184c5792, type: 3}
   chestOpen: {fileID: 8300000, guid: 7752e5fe78c4b9548bf2f8ac40626a71, type: 3}
   seedBagOpen: {fileID: 8300000, guid: 39cf80981a2ba9b47a3abd55fa7446f8, type: 3}
+  useInvincibility: {fileID: 8300000, guid: 74758c62663c99c4bab8a83da767db29, type: 3}
   effect: {fileID: 0}
   poisonSource: {fileID: 0}

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredExp: 52000
   rewards:
-  - rewardCount: 3
-    rewardIndex: 4
+  - rewardCount: 2
+    rewardIndex: 6
     isPaid: 0
     type: 2
-  - rewardCount: 1
-    rewardIndex: 4
-    isPaid: 1
-    type: 3
+  - rewardCount: 2
+    rewardIndex: 7
+    isPaid: 0
+    type: 2
   - rewardCount: 2
     rewardIndex: 2
     isPaid: 1

@@ -21,8 +21,8 @@ MonoBehaviour:
     reqId: 4
     collectableAmount: 50
   - type: 0
-    reqId: 5
-    collectableAmount: 40
+    reqId: 7
+    collectableAmount: 20
   id: 44
-  rewardXp: 1200
+  rewardXp: 1400
   isDaily: 0

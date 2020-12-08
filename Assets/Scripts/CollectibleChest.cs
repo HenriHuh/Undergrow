@@ -15,6 +15,7 @@ public class CollectibleChest : Interactable
         SoundManager.instance.PlaySound(SoundManager.instance.completeLevel);
         DrawTree.instance.CollectEffectPlay();
         EffectManager.instance.PlayParticle(EffectManager.instance.seedCollected, transform.position);
+        GardenManager.chestFound = true;
 
         gameObject.SetActive(false);
     }

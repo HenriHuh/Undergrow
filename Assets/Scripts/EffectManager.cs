@@ -10,6 +10,8 @@ public class EffectManager : MonoBehaviour
     public ParticleSystem rockDestroy;
     public ParticleSystem seedCollected;
     public ParticleSystem rootFinished;
+    public ParticleSystem waterCollect;
+    public ParticleSystem moleDestroy;
 
     //Instance
     public static EffectManager instance;

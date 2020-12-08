@@ -25,7 +25,10 @@ public class ScaleUIByChildren : MonoBehaviour
         {
             size.y += t.GetComponent<RectTransform>().sizeDelta.y + transform.GetComponent<VerticalLayoutGroup>().spacing;
         }
-
+        //if (size.y > transform.parent.GetComponent<RectTransform>().sizeDelta.y)
+        //{
+        //    size.y = transform.parent.GetComponent<RectTransform>().sizeDelta.y;
+        //}
         transform.GetComponent<RectTransform>().sizeDelta = size;
     }
 }

@@ -13,6 +13,7 @@ public class Rock : Interactable
     private void OnEnable()
     {
         wholeRock.SetActive(true);
+        damaged = false;
         health = 2;
     }
 

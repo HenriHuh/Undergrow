@@ -9,8 +9,11 @@ public class InventoryHandler : MonoBehaviour
 
     public GameObject itemPrefab;
     public GameObject confirmScreen;
+    public Transform seedRewardScreen;
+    public Transform seedRewardLayout;
     public Button confirmBtn;
     public Transform itemParent;
+
 
     private void Start()
     {
@@ -54,6 +57,17 @@ public class InventoryHandler : MonoBehaviour
                 g.transform.GetChild(2).GetComponent<Image>().sprite = item.icon;
                 g.GetComponent<Button>().onClick.AddListener(() => item.UseItem());
             }
+        }
+    }
+
+    public void ShowSeedRewards(List<int> seeds)
+    {
+        seedRewardScreen.gameObject.SetActive(true);
+        int iteration = 0;
+        foreach (int i in seeds)
+        {
+            seedRewardLayout.GetChild(iteration).GetComponent<Image>().sprite =  PlantDataBase.instance.GetPlantByIndex(i).plantVariables.seedSprite;
+            iteration++;
         }
     }
 
